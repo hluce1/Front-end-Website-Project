@@ -1,0 +1,261 @@
+/** https://css-tricks.com/snippets/html/responsive-meta-tag/ Render at browser window size. */
+ @-ms-viewport{
+     width: device-width;
+}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ html {
+     background: #fffdf9;
+}
+ body {
+     font-family: "Tahoma", "Geneva", "sans-serif";
+     font-size: 1em;
+    /* max-width: 1200px;
+     */
+     background: white;
+     margin: auto;
+}
+ h1 {
+     font-family: "Tahoma", "Geneva", "sans-serif";
+     color: grey;
+     text-align: center;
+     font-size: 1.4em;
+     font-weight: 300;
+}
+ p {
+     font-family: "Tahoma", "Geneva", "sans-serif";
+     font-size: 0.85em;
+}
+/* Styled titles */
+ .h3body {
+     text-align: center;
+     color: burlywood;
+     text-shadow: 1px 1px black;
+     font-size: 30px;
+     font-family:'serif';
+}
+/* h4 headings */
+ .headings {
+     font-family: "Verdana", "Geneva", "sans-serif";
+     font-size: 0.8em;
+     text-align: center;
+}
+/* Font styles for content and headings https://www.w3schools.com/cssref/css_websafe_fonts.asp */
+ .content {
+     font-family: "Tahoma", "Geneva", "sans-serif";
+     font-size: 0.5em;
+     letter-spacing: 1.5px;
+     text-align: justify;
+     border: 2px solid #FFF;
+     padding-bottom: 10px;
+     line-height: 1.2em;
+}
+/* Hero image styles */
+ .hero-image {
+     background-image: url(../images/blackandwhite.jpg);
+     height: 6em;
+    /* background-position: center;
+     */
+     min-height: 27em;
+    /* background-repeat: no-repeat;
+     */
+    /* background-size: cover;
+     */
+     position: relative;
+     display: block;
+     padding: 10em;
+     background-attachment: fixed;
+     background-position: bottom;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ @media only screen and (max-device-width: 1366px) {
+     .hero-image {
+         background-attachment: scroll;
+    }
+}
+/* Hero image text positioning */
+ #wrapper {
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 42%;
+     transform: translate(-50%, -50%);
+}
+ .welcome {
+     font-size: 6em;
+     color: oldlace;
+     text-shadow: -6px -1px 19px black;
+}
+/* End of hero image styles */
+/* Header and nav container */
+ .container {
+     display: flex;
+     flex-direction: column;
+     padding: 1em 0;
+     border-bottom: 1px solid #909090;
+     margin-bottom: 0.1em;
+}
+ .navbar {
+     width: inherit;
+     margin: 0;
+     text-align: center;
+}
+ .navbar a {
+     color: grey;
+     padding: 0.5em;
+     text-decoration: none;
+     border-bottom: 1px solid #dab506;
+}
+ .navbar a:hover {
+     background-color: antiquewhite;
+}
+ .navbar a.active {
+     color: white;
+}
+/* Target when browser window is <= 768px */
+ @media screen and (max-width : 768px) {
+     .navbar {
+         width: inherit;
+         margin: 0;
+         text-align: center;
+    }
+     .navbar a {
+         color: grey;
+         display: block;
+         padding: 0.5em;
+         text-decoration: none;
+         border: none;
+    }
+     .navbar a:hover {
+         background-color: antiquewhite;
+    }
+     .navbar a.active {
+         color: white;
+    }
+     li {
+         padding: 0 !important;
+    }
+     ul {
+         margin-top: 1em;
+    }
+     #wrapper {
+         left: 51%;
+    }
+     .welcome {
+         font-size: 4em;
+    }
+}
+/* End of query */
+ nav {
+     margin: 1.5em 0 0 5%;
+}
+ header ul li {
+     display: inline;
+     padding: 0 0.6em 0 0;
+     font-size: 0.9em;
+}
+ header ul li a {
+     text-decoration: none;
+     color: #B6B6B6;
+}
+ li a:hover {
+     color: #B6B6B6;
+}
+/* Target the ul when it's >= 300px */
+ @media screen (min-width : 300px) {
+     ul {
+         padding: 1em;
+    }
+}
+ @media screen (min-width : 320px) {
+     .welcome {
+         font-size: 4em;
+    }
+}
+/* End of query*/
+/* Laptop and above styles */
+ @media screen and (min-width : 769px) {
+     h1 {
+         padding-left: 2em;
+    }
+    /* Space the header and the nav items */
+     .container {
+         flex-direction: row;
+         justify-content: space-between;
+         padding: 0em 7em;
+    }
+     .logo {
+         margin-left: 2.3em;
+    }
+     nav {
+         align-self: center;
+         margin: 0 0.8em 0 0;
+    }
+}
+/* End of query*/
+/* Back to top button */
+ .topbtn {
+     float: right;
+     background-color: rgb(216, 214, 214);
+     border: none;
+     border-radius: 4px;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     font-size: 20px;
+     padding: 10px;
+     margin-top: 0.6em;
+}
+ .topbtn:hover {
+     color: rgb(6, 98, 196);
+     background-color: rgb(234, 234, 234);
+}
+/* Footer styles */
+ footer {
+     margin-top: 0px;
+     clear: both;
+     padding: 1.2em;
+     font-size: 0.8em;
+     font-weight: bold;
+     color: black;
+     text-align: center;
+}
+/* Keep the footer links one colour */
+ .footerclicked:visited {
+     color: grey;
+}
+/* When browswer window is 768px or less, make the padding 0 */
+ @media screen and (max-width : 768px) {
+     .flex-container {
+         padding: 0em !important;
+    }
+}
+/* Intro flex boxes */
+ .flex-container {
+    /* background-color: blue;
+     */
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     -ms-flex-pack: start;
+     justify-content: flex-start;
+     align-content: stretch;
+     align-items: center;
+     margin-top: 2em;
+     padding: 0em 5em;
+}
+ .flex-container > div {
+     background-color: white;
+     width: 100px;
+     margin: 10px;
+     text-align: center;
+     line-height: 75px;
+     font-size: 30px;
+     flex: 2 0 auto;
+     align-self: auto;
+     flex: 1 1 14em;
+}
