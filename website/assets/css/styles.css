@@ -13,8 +13,7 @@
  body {
      font-family: "Tahoma", "Geneva", "sans-serif";
      font-size: 1em;
-    /* max-width: 1200px;
-     */
+    /* max-width: 1200px; */
      background: white;
      margin: auto;
 }
@@ -57,13 +56,7 @@
  .hero-image {
      background-image: url(../images/blackandwhite.jpg);
      height: 6em;
-    /* background-position: center;
-     */
      min-height: 27em;
-    /* background-repeat: no-repeat;
-     */
-    /* background-size: cover;
-     */
      position: relative;
      display: block;
      padding: 10em;
@@ -158,13 +151,6 @@
      padding: 0 0.6em 0 0;
      font-size: 0.9em;
 }
- header ul li a {
-     text-decoration: none;
-     color: #B6B6B6;
-}
- li a:hover {
-     color: #B6B6B6;
-}
 /* Target the ul when it's >= 300px */
  @media screen (min-width : 300px) {
      ul {
@@ -236,14 +222,9 @@
 }
 /* Intro flex boxes */
  .flex-container {
-    /* background-color: blue;
-     */
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
-     -ms-flex-pack: start;
-     justify-content: flex-start;
-     align-content: stretch;
      align-items: center;
      margin-top: 2em;
      padding: 0em 5em;
