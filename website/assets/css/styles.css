@@ -23,6 +23,8 @@
      text-align: center;
      font-size: 1.4em;
      font-weight: 300;
+     /*test */
+     padding-left: 2em;
 }
  p {
      font-family: "Tahoma", "Geneva", "sans-serif";
@@ -75,7 +77,6 @@
      text-align: center;
      position: absolute;
      top: 50%;
-     left: 42%;
      transform: translate(-50%, -50%);
 }
  .welcome {
@@ -109,19 +110,56 @@
  .navbar a.active {
      color: white;
 }
-/* Target when browser window is <= 768px */
- @media screen and (max-width : 768px) {
+/* First query active for welcome */
+ @media screen and (min-width: 1274px) {
+     #wrapper {
+         left:47%;
+    }
+}
+ @media screen and (max-width: 1273px) {
+     #wrapper {
+         left: 44%;
+    }
+}
+ @media screen and (max-width: 833px) {
+     #wrapper {
+         left: 44%;
+    }
+}
+ @media screen and (max-width: 649px) {
+     #wrapper {
+         left: 34%;
+    }
+}
+ @media screen and (max-width: 430px) {
+     #wrapper {
+         left: 31%;
+    }
+}
+/* Last query */
+/* Target when browser window is <= 900px 
+   Create a fixed nav for tablets and mobiles */
+ @media screen and (max-width: 900px) {
      .navbar {
-         width: inherit;
-         margin: 0;
-         text-align: center;
+    /* width: inherit; */
+    /* margin: 0; */
+    /* text-align: center; */
+    position: fixed; 
+    display: block; 
+    overflow: hidden; 
+    background-color: black;
+    position: fixed;
+    top: -1em;
+    width: 100%;
+    z-index: 1;
     }
      .navbar a {
-         color: grey;
-         display: block;
-         padding: 0.5em;
-         text-decoration: none;
-         border: none;
+    color: grey;
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    border: none;
+         
     }
      .navbar a:hover {
          background-color: antiquewhite;
@@ -134,10 +172,8 @@
     }
      ul {
          margin-top: 1em;
-    }
-     #wrapper {
-         left: 51%;
-    }
+    }     
+} 
      .welcome {
          font-size: 4em;
     }
@@ -151,14 +187,14 @@
      padding: 0 0.6em 0 0;
      font-size: 0.9em;
 }
- @media screen (min-width : 320px) {
+ @media screen (min-width: 320px) {
      .welcome {
          font-size: 4em;
     }
 }
 /* End of query*/
 /* Laptop and above styles */
- @media screen and (min-width : 769px) {
+ @media screen and (min-width: 769px) {
      /* Bigger nav elements for larger resolutions */
      ul {
          font-size: 1.2em;
@@ -181,8 +217,8 @@
     }
 }
 /* End of query */
-/* Resize the navbar to work at 1113px or less */
-@media screen and (max-width : 1113px) {
+/* Resize the navbar to work at 1170px or less */
+@media screen and (max-width: 1170px) {
     .container {
         padding: 0;
     }
@@ -190,6 +226,14 @@
         font-size: 1em;
     }
 }
+/* End of query*/
+/*test*/
+@media screen and (max-width: 866px) {
+    .navbar a {
+        color: #808081;
+    }
+} 
+    
 /* End of query*/
 /* Back to top button */
  .topbtn {
@@ -223,11 +267,15 @@
      color: grey;
 }
 /* When browswer window is 768px or less, make the padding 0 */
- @media screen and (max-width : 768px) {
+ @media screen and (max-width: 768px) {
      .flex-container {
          padding: 0em !important;
     }
 }
+     /* test */
+    /*  #wrapper {
+         left: 51%; */
+
 /* Intro flex boxes */
  .flex-container {
      display: flex;
