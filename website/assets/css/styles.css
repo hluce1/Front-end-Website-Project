@@ -151,12 +151,6 @@
      padding: 0 0.6em 0 0;
      font-size: 0.9em;
 }
-/* Target the ul when it's >= 300px */
- @media screen (min-width : 300px) {
-     ul {
-         padding: 1em;
-    }
-}
  @media screen (min-width : 320px) {
      .welcome {
          font-size: 4em;
@@ -165,6 +159,10 @@
 /* End of query*/
 /* Laptop and above styles */
  @media screen and (min-width : 769px) {
+     /* Bigger nav elements for larger resolutions */
+     ul {
+         font-size: 1.2em;
+     }
      h1 {
          padding-left: 2em;
     }
@@ -172,7 +170,7 @@
      .container {
          flex-direction: row;
          justify-content: space-between;
-         padding: 0em 7em;
+         padding: 0em 5em;
     }
      .logo {
          margin-left: 2.3em;
@@ -180,6 +178,16 @@
      nav {
          align-self: center;
          margin: 0 0.8em 0 0;
+    }
+}
+/* End of query */
+/* Resize the navbar to work at 1113px or less */
+@media screen and (max-width : 1113px) {
+    .container {
+        padding: 0;
+    }
+    ul {
+        font-size: 1em;
     }
 }
 /* End of query*/
