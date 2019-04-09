@@ -1,4 +1,4 @@
-/** https://css-tricks.com/snippets/html/responsive-meta-tag/ Render at browser window size. */
+/* https://css-tricks.com/snippets/html/responsive-meta-tag/ Render at browser window size. */
  @-ms-viewport{
      width: device-width;
 }
@@ -34,9 +34,15 @@
      text-align: center;
      color: burlywood;
      text-shadow: 1px 1px black;
-     font-size: 30px;
+     font-size: 1em;
      font-family:'serif';
 }
+@media screen and (max-device-width: 375px) {
+     .h3body {
+         font-size: 0.9em;
+    }
+}
+/* End of query */
 /* h4 headings */
  .headings {
      font-family: "Verdana", "Geneva", "sans-serif";
@@ -71,9 +77,14 @@
      .hero-image {
          background-attachment: scroll;
     }
+       .parallax-image2 {
+         background-attachment: scroll;
+    }
 }
+/* End of query */
 /* Second parallax scrolling image */
 /* Hero image styles */
+ @media screen and (min-width: 901px) {
  .parallax-image2 {
      background-image: url(../images/contenttwo.jpg);
      height: 6em;
@@ -85,13 +96,28 @@
      background-position: bottom;
      background-repeat: no-repeat;
      background-size: cover;
+     }
 }
-/* Stop parrallax scrolling for tablet and below devices */
- @media only screen and (max-device-width: 900px) {
+/* End of query */
+/* Change mid image at tablet and below */
+ @media screen and (max-width: 900px) {
+ .parallax-image2 {
+    background-image: url(../images/contenttwo.jpg);
+    height: 13em;
+    position: relative;
+    display: block;
+    background-position: center;
+    background-size: cover;
+     }
+}
+/* End of query */
+/* Make the middle image smaller at tablet and below */
+@media only screen and (max-device-width: 769px) {
      .parallax-image2 {
-         background-attachment: scroll;
+         height: 7em;
     }
 }
+/* End of query */
 /* Hero image text positioning */
  #wrapper {
      text-align: center;
@@ -248,13 +274,13 @@
         font-size: 1em;
     }
 }
-/* End of query*/
+/* End of query */
 @media screen and (max-width: 866px) {
     .navbar a {
         color: #808081;
     }
 } 
-/* End of query*/
+/* End of query */
 /* Back to top button */
  .topbtn {
      float: right;
@@ -273,9 +299,8 @@
      background-color: rgb(234, 234, 234);
 }
 
-/* Content styles */
-/* testing old content styles */
-/* Content images */
+/* Content styles 
+   Content images */
  .contentimage {
      height: 404px;
      border: 1px solid rgb(187, 187, 187);
@@ -286,7 +311,6 @@
  .divorigins {
      display: inline-block;
 }
-/* end of test */ 
 /* Footer styles */
  footer {
      margin-top: 0px;
