@@ -44,6 +44,15 @@
     }
 }
 /* End of query */
+/* Space out intro content until mobile size */
+/* Sections only styles */
+@media screen and (min-device-width: 425px) {
+section {
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+}
+/* End of query */
 /* h4 headings */
  .headings {
      font-family: "Verdana", "Geneva", "sans-serif";
@@ -88,8 +97,8 @@
  @media screen and (min-width: 901px) {
      .parallax-image2 {
          background-image: url(../images/contenttwo.jpg);
-         height: 6em;
-         min-height: 27em;
+         /*height: 6em;
+         min-height: 27em;*/
          position: relative;
          display: block;
          padding: 10em;
@@ -282,7 +291,57 @@
     }
 }
 /* End of query */
-/* Back to top button */
+/* Content styles Content images */
+ .contentimage {
+     height: 404px;
+     border: 1px solid rgb(187, 187, 187);
+     padding: 5px;
+     width: 906px;
+     border-radius: 8px;
+}
+ .divorigins {
+     display: inline-block;
+}
+/*test*/
+/* Footer styles above tablets */
+@media screen and (min-width: 900px) {
+ footer {
+    margin-top: 0px;
+    clear: both;
+    padding: 1.2em;
+    margin-left: 9em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    }
+}
+/* Keep the footer links one colour */
+ .footerclicked:visited {
+     color: grey;
+    }
+/* Footer styles below tablets */
+@media screen and (max-width: 900px) {
+ footer {
+     margin-top: 0px;
+     clear: both;
+     padding: 1.2em;
+     font-size: 0.8em;
+     font-weight: bold;
+     color: white;
+     text-align: center;
+     background-color: black;
+     word-spacing: 0.2em;
+     margin-left: 0;
+}
+/* Keep the footer links one colour */
+ .footerclicked:visited {
+     color: grey;
+    }
+}
+    
+ /* Back to top button for above tablet devices */
+ @media screen and (min-width: 900px) {
  .topbtn {
      float: right;
      background-color: rgb(216, 214, 214);
@@ -298,32 +357,18 @@
  .topbtn:hover {
      color: rgb(6, 98, 196);
      background-color: rgb(234, 234, 234);
+    }   
 }
-/* Content styles Content images */
- .contentimage {
-     height: 404px;
-     border: 1px solid rgb(187, 187, 187);
-     padding: 5px;
-     width: 906px;
-     border-radius: 8px;
+/* Hide the back to top button */
+@media screen and (max-width: 900px) {
+    .topbtn {
+        display: none;
+    }
 }
- .divorigins {
-     display: inline-block;
-}
-/* Footer styles */
- footer {
-     margin-top: 0px;
-     clear: both;
-     padding: 1.2em;
-     font-size: 0.8em;
-     font-weight: bold;
-     color: black;
-     text-align: center;
-}
-/* Keep the footer links one colour */
- .footerclicked:visited {
-     color: grey;
-}
+
+/*end tests*/
+
+/* End of footer styles*/
 /* When browswer window is 768px or less, make the padding 0 */
  @media screen and (max-width: 768px) {
      .flex-container1 {
