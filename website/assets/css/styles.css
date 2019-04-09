@@ -23,7 +23,6 @@
      text-align: center;
      font-size: 1.4em;
      font-weight: 300;
-     /*test */
      padding-left: 2em;
 }
  p {
@@ -67,8 +66,29 @@
      background-repeat: no-repeat;
      background-size: cover;
 }
- @media only screen and (max-device-width: 1366px) {
+/* Stop parrallax scrolling for tablet and below devices */
+ @media only screen and (max-device-width: 900px) {
      .hero-image {
+         background-attachment: scroll;
+    }
+}
+/* Second parallax scrolling image */
+/* Hero image styles */
+ .parallax-image2 {
+     background-image: url(../images/contenttwo.jpg);
+     height: 6em;
+     min-height: 27em;
+     position: relative;
+     display: block;
+     padding: 10em;
+     background-attachment: fixed;
+     background-position: bottom;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+/* Stop parrallax scrolling for tablet and below devices */
+ @media only screen and (max-device-width: 900px) {
+     .parallax-image2 {
          background-attachment: scroll;
     }
 }
@@ -79,7 +99,7 @@
      top: 50%;
      transform: translate(-50%, -50%);
 }
- .welcome {
+ .parallax-header {
      font-size: 6em;
      color: oldlace;
      text-shadow: -6px -1px 19px black;
@@ -110,7 +130,7 @@
  .navbar a.active {
      color: white;
 }
-/* First query active for welcome */
+/* First query active for parallax title */
  @media screen and (min-width: 1274px) {
      #wrapper {
          left:47%;
@@ -133,7 +153,12 @@
 }
  @media screen and (max-width: 430px) {
      #wrapper {
-         left: 31%;
+         left: 33%;
+    }
+}
+ @media screen and (max-width: 400px) {
+     #wrapper {
+         left: 30%;
     }
 }
 /* Last query */
@@ -141,9 +166,6 @@
    Create a fixed nav for tablets and mobiles */
  @media screen and (max-width: 900px) {
      .navbar {
-    /* width: inherit; */
-    /* margin: 0; */
-    /* text-align: center; */
     position: fixed; 
     display: block; 
     overflow: hidden; 
@@ -174,7 +196,7 @@
          margin-top: 1em;
     }     
 } 
-     .welcome {
+     .parallax-header {
          font-size: 4em;
     }
 }
@@ -188,7 +210,7 @@
      font-size: 0.9em;
 }
  @media screen (min-width: 320px) {
-     .welcome {
+     .parallax-header {
          font-size: 4em;
     }
 }
@@ -227,13 +249,11 @@
     }
 }
 /* End of query*/
-/*test*/
 @media screen and (max-width: 866px) {
     .navbar a {
         color: #808081;
     }
 } 
-    
 /* End of query*/
 /* Back to top button */
  .topbtn {
@@ -252,6 +272,21 @@
      color: rgb(6, 98, 196);
      background-color: rgb(234, 234, 234);
 }
+
+/* Content styles */
+/* testing old content styles */
+/* Content images */
+ .contentimage {
+     height: 404px;
+     border: 1px solid rgb(187, 187, 187);
+     padding: 5px;
+     width: 906px;
+     border-radius: 8px;
+}
+ .divorigins {
+     display: inline-block;
+}
+/* end of test */ 
 /* Footer styles */
  footer {
      margin-top: 0px;
@@ -268,16 +303,34 @@
 }
 /* When browswer window is 768px or less, make the padding 0 */
  @media screen and (max-width: 768px) {
-     .flex-container {
+     .flex-container1 {
          padding: 0em !important;
     }
 }
-     /* test */
-    /*  #wrapper {
-         left: 51%; */
-
+/* End of query */
 /* Intro flex boxes */
- .flex-container {
+ .flex-container1 {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     margin-top: 2em;
+     padding: 0em 3em 5em;
+}
+ .flex-container1 > div {
+     background-color: white;
+     width: 100px;
+     margin: 10px;
+     text-align: center;
+     line-height: 75px;
+     font-size: 30px;
+     flex: 2 0 auto;
+     align-self: auto;
+     flex: 1 1 14em;
+}
+/* Mid second flex boxes */
+/* Intro flex boxes */
+ .flex-container2 {
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
@@ -285,7 +338,7 @@
      margin-top: 2em;
      padding: 0em 5em;
 }
- .flex-container > div {
+ .flex-container2 > div {
      background-color: white;
      width: 100px;
      margin: 10px;
