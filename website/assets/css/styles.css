@@ -13,8 +13,6 @@
  body {
      font-family: "Tahoma", "Geneva", "sans-serif";
      font-size: 1em;
-    /* max-width: 1200px;
-     */
      background: white;
      margin: auto;
 }
@@ -79,7 +77,6 @@
 /* Hero image styles */
  .hero-image {
      background-image: url(../images/blackandwhite.jpg);
-     height: 6em;
      min-height: 27em;
      position: relative;
      display: block;
@@ -131,7 +128,7 @@
 /* Make the middle image smaller at tablet and below */
  @media only screen and (max-device-width: 769px) {
      .parallax-image2 {
-         height: 7em;
+         height: 12em;
     }
 }
 /* End of query */
@@ -446,7 +443,7 @@
      flex-direction: row;
      flex-wrap: wrap;
      align-items: center;
-     margin-top: 2em;
+     margin-top: 2em; 
      padding: 0em 1em 0em;
 }
  .flex-item > div, .flex-item2 > div {
