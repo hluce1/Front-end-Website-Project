@@ -513,13 +513,13 @@
          padding-right: 5em;
     }
 }
-/*test*//*
- @media screen and (max-width: 4000px) {
+/*test*/
+ @media screen and (min-width: 3000px) {
      .flex-item2, .flex-item {
          padding-left: 40em !important;
          padding-right: 40em !important;
     }
-}*/
+}
 
 /* End of flex-item styles */
 /* Middle box content styles */
@@ -532,6 +532,12 @@
  @media (min-width: 992px) {
      .block {
          max-width: 582px;
+    }
+}
+/* Make larger content have no max width */
+ @media (min-width: 2700px) {
+     .block {
+         max-width: none;
     }
 }
 /* End of query */
@@ -571,6 +577,12 @@
          margin-top: 20px;
     }
 }
+@media (min-width: 2760px) and (max-width: 4000px) {
+     .block-content {
+         margin-left: 1em;
+    }
+}
+
 /* End of queries */
 /* Block content text */
  .content2 {
