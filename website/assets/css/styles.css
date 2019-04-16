@@ -149,10 +149,11 @@
      position: absolute;
      top: 50%;
      transform: translate(-50%, -50%);
+     
 }
  .parallax-header {
      font-size: 6em;
-     color: oldlace;
+     color: rgb(255, 255, 255);
      text-shadow: -6px -1px 19px black;
 }
 /* End of hero image styles */
@@ -199,7 +200,7 @@
 }
  @media screen and (max-width: 649px) {
      #wrapper {
-         left: 34%;
+         left: 40%;
     }
 }
  @media screen and (max-width: 430px) {
@@ -247,6 +248,11 @@
 }
 /* Make welcome header fit smaller devices */
  @media screen and (max-width: 1460px) {
+     .parallax-header {
+         font-size: 6em;
+    }
+}
+ @media screen and (max-width: 768px) {
      .parallax-header {
          font-size: 4em;
     }
@@ -314,7 +320,7 @@
          background-color: rgb(216, 214, 214);
          border: none;
          border-radius: 4px;
-         color: #ffffff;
+         color: #000000cf;
          text-align: center;
          text-decoration: none;
          font-size: 20px;
@@ -355,7 +361,7 @@
 }
 /* Footer links main colour */
  .footerclicked {
-     color: #808080;
+     color: #424040;
 }
 /* Footer styles above tablets */
  @media screen and (min-width: 900px) {
@@ -373,7 +379,7 @@
 /* End of query*/
 /* Keep the footer links one colour */
  .footerclicked:visited {
-     color: #808080;
+     color: #424040;
 }
 /* Footer styles below tablets */
  @media screen and (max-width: 900px) {
@@ -391,7 +397,7 @@
     }
     /* Keep the footer links one colour */
      .footerclicked:visited {
-         color: #808080;
+         color: #424040;
     }
 }
 /* End of query*/
@@ -504,7 +510,7 @@
      .flex-item2, .flex-item {
          padding-left: 35em;
          padding-right: 35em;
-         zoom: 74%;
+         zoom: 100%;
     }
 }
  @media screen and (min-width: 2700px) {
