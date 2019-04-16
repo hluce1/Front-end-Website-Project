@@ -504,8 +504,23 @@
      .flex-item2, .flex-item {
          padding-left: 35em;
          padding-right: 35em;
+         zoom: 74%;
     }
 }
+ @media screen and (min-width: 2700px) {
+     .flex-item2, .flex-item {
+         padding-left: 5em;
+         padding-right: 5em;
+    }
+}
+/*test*//*
+ @media screen and (max-width: 4000px) {
+     .flex-item2, .flex-item {
+         padding-left: 40em !important;
+         padding-right: 40em !important;
+    }
+}*/
+
 /* End of flex-item styles */
 /* Middle box content styles */
  @media (max-width: 504px) {
