@@ -87,7 +87,7 @@
 /* End of query */
 /* Hero image styles */
  .hero-image {
-     background-image: url(../images/blackandwhite.jpg);
+     background-image: url(../images/black_and_white.jpg);
      min-height: 27em;
      position: relative;
      display: block;
@@ -108,10 +108,9 @@
 }
 /* End of query */
 /* Second parallax scrolling image */
-/* Hero image styles */
  @media screen and (min-width: 901px) {
      .parallax-image2 {
-         background-image: url(../images/contenttwo.jpg);
+         background-image: url(../images/content_two.jpg);
          height: 6em;
          min-height: 27em;
          position: relative;
@@ -144,7 +143,15 @@
 }
 /* End of query */
 /* Hero image text positioning */
- #wrapper {
+ #welcome-wrapper {
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     
+}
+/* Stories text positioning */
+ #stories-wrapper {
      text-align: center;
      position: absolute;
      top: 50%;
@@ -184,32 +191,32 @@
 }
 /* First query active for parallax title */
  @media screen and (min-width: 1274px) {
-     #wrapper {
+     #welcome-wrapper, #stories-wrapper {
          left:47%;
     }
 }
  @media screen and (max-width: 1273px) {
-     #wrapper {
+     #welcome-wrapper, #stories-wrapper {
          left: 44%;
     }
 }
  @media screen and (max-width: 833px) {
-     #wrapper {
+     #welcome-wrapper, #stories-wrapper {
          left: 44%;
     }
 }
  @media screen and (max-width: 649px) {
-     #wrapper {
+     #welcome-wrapper, #stories-wrapper  {
          left: 40%;
     }
 }
  @media screen and (max-width: 430px) {
-     #wrapper {
+     #welcome-wrapper, #stories-wrapper {
          left: 33%;
     }
 }
  @media screen and (max-width: 400px) {
-     #wrapper {
+     #welcome-wrapper, #stories-wrapper  {
          left: 30%;
     }
 }
