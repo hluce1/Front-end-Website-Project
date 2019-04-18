@@ -405,6 +405,9 @@
     }
 }
 /* End of query*/
+.footer-background {
+    background-color: #80808026;
+}
 /* When browswer window is 768px or less, make the padding 0 */
  @media screen and (max-width: 768px) {
      .flex-container1 {
