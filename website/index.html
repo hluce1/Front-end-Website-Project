@@ -155,6 +155,7 @@
                            <input
                               name="contact_name"
                               class="form-area"
+                              type="text"
                               placeholder="Name*"
                               required
                               />
@@ -163,6 +164,7 @@
                            <input
                               name="contact_email"
                               class="form-area"
+                              type="email"
                               placeholder="Email*"
                               required
                               />
@@ -171,6 +173,7 @@
                            <input
                               name="contact_phone"
                               class="form-area"
+                              type="tel"
                               placeholder="Phone Number"
                               optional
                               />
@@ -179,7 +182,9 @@
                            <textarea
                               name="contact_questions"
                               class="form-area"
-                              placeholder="Your questions*"
+                              type="text"
+                              maxlength="500"
+                              placeholder="Your questions* (500 character limit)"
                               required
                               ></textarea>
                         </div>
