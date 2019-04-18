@@ -7,14 +7,14 @@
      padding: 0;
      box-sizing: border-box;
 }
- @media (min-width: 3800px) and (min-height: 2000px) {
+ @media (min-height: 2000px) and (min-width: 3800px) {
      * {
          zoom: 109%;
     }
 }
- @media (min-width: 2560px) and (min-height: 1300px) {
+ @media (min-height: 1300px) and (min-width: 2560px) {
      * {
-         zoom: 108%;
+         zoom: 104%;
     }
 }
 /* End of resolutions scalling queries */
@@ -88,7 +88,7 @@
 /* Hero image styles */
  .hero-image {
      background-image: url(../images/black_and_white.jpg);
-     min-height: 27em;
+     min-height: 30em;
      position: relative;
      display: block;
      padding: 10em;
@@ -112,7 +112,8 @@
      .parallax-image2 {
          background-image: url(../images/content_two.jpg);
          height: 6em;
-         min-height: 27em;
+         min-height: 19em;
+         margin-bottom: 4em;
          position: relative;
          display: block;
          padding: 10em;
@@ -287,7 +288,7 @@
          font-size: 1.2em;
     }
      h1 {
-         padding-left: 2em;
+         padding-left: 1em;
     }
     /* Space the header and the nav items */
      .container {
@@ -468,6 +469,11 @@
      flex: 3 1 2em;
      border: 1px solid #808080;
 }
+@media screen and (min-width: 421px) {
+    .flex-item > div, .flex-item2 > div { 
+     margin: 20px;    
+    }
+}
  .flex-item2 {
      display: flex;
      flex-direction: row;
@@ -603,21 +609,46 @@
      font-size: 0.5em;
      line-height: 1.2em;
 }
+/*test*/
+.contact-background {
+    background-color: #80808014;
+    padding: 8em;
+}
+@media screen and (max-width: 790px ){
+    .contact-background {
+        padding: 7em;
+    }
+}
+@media screen and (max-width: 700px ){
+    .contact-background {
+        padding: 2em 0 2em 0;
+    }
+}
 /* Last content */
 #form {
-    padding: 2em 19em;
+    /*test*/
+    /* padding: 2em 19em; */
+    padding: 4em 0;
+    /* width: 22em; */
+    margin-left: 1em;
+    margin-right: 1em;
+    /*test*/
+    background: #fff;
+    padding: 50px 40px 35px 40px;
+    box-shadow: 0px 8px 18px 8px rgba(17,21,23,.1);
 }
-/* test form positions*/
+/* test form positions*//* test
 @media screen and (max-width: 768px) {
     #form {
         padding: 0;
     }
-}
+}*/
 .contact-wrap {
-    margin-right: -15px;
-    margin-left: -15px;
-    max-width: 14em;
-    text-align: right;
+    /*test*/
+   /* margin-right: -15px; */
+    /* margin-left: -15px; */
+    /* max-width: 14em; */
+    text-align: center;
 }
 .contact-heading {
     margin-bottom: 40px;
@@ -644,9 +675,10 @@ textarea {
 .submit-button {    
     display: inline-block;
     border: 1px solid #f3bd0694;
-    background-color: transparent;
+    background-color: #ffffff;
     font-size: 1.3em;
-    padding: 0.7em 1.5em;
+    padding: 0.7em 2.3em;
+    border-radius: 12px;
 }
 /* Second flex container */
  .flex-container2 {
