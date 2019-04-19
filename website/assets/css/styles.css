@@ -71,7 +71,7 @@
          font-size: 0.4em;
     }
 }
-.h3-center {
+.story-heading {
     font-size: 0.5em;
     color: burlywood;
 }
@@ -84,7 +84,7 @@
 }
 /* End of query */
 @media screen and (min-width: 839px) and (max-width: 1391px) {
-    .h3-center {
+    .story-heading {
         margin-top: 2em;
     }
 }
