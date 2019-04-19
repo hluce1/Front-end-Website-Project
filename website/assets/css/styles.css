@@ -71,21 +71,21 @@
          font-size: 0.4em;
     }
 }
-.story-heading {
-    font-size: 0.5em;
-    color: burlywood;
+ .story-heading {
+     font-size: 0.5em;
+     color: burlywood;
 }
 /* End of query */
-@media screen and (min-width: 839px) and (max-width: 1391px) {
-    .block {
-        zoom: 98%;
-        flex-direction: column;
+ @media screen and (min-width: 839px) and (max-width: 1391px) {
+     .block {
+         zoom: 98%;
+         flex-direction: column;
     }
 }
 /* End of query */
-@media screen and (min-width: 839px) and (max-width: 1391px) {
-    .story-heading {
-        margin-top: 2em;
+ @media screen and (min-width: 839px) and (max-width: 1391px) {
+     .story-heading {
+         margin-top: 2em;
     }
 }
 /* End of query */
@@ -99,7 +99,8 @@
 /* Hero image styles */
  .hero-image {
      background-image: url(../images/black_and_white.jpg);
-     /*background-image: url(../images/black_and_white.jpg);*/
+    /*background-image: url(../images/black_and_white.jpg);
+    */
      min-height: 30em;
      position: relative;
      display: block;
@@ -564,32 +565,32 @@
      height: 185px;
 }
  .middle-image1 {
-    background-image: url(../images/contentthree.jpg);
-    height: 185px;
-    background-position: center;
-    background-size: cover;
-    width: 185px;
+     background-image: url(../images/contentthree.jpg);
+     height: 185px;
+     background-position: center;
+     background-size: cover;
+     width: 185px;
 }
  .middle-image2 {
-    background-image: url(../images/contentfive.jpg);
-    height: 185px;
-    background-position: center;
-    background-size: cover;
-    width: 185px;
+     background-image: url(../images/contentfive.jpg);
+     height: 185px;
+     background-position: center;
+     background-size: cover;
+     width: 185px;
 }
  .middle-image3 {
-    background-image: url(../images/contentfour.jpg);
-    height: 185px;
-    background-position: center;
-    background-size: cover;
-    width: 185px;
+     background-image: url(../images/contentfour.jpg);
+     height: 185px;
+     background-position: center;
+     background-size: cover;
+     width: 185px;
 }
  .middle-image4 {
-    background-image: url(../images/contentone.jpg);
-    height: 185px;
-    background-position: center;
-    background-size: cover;
-    width: 185px;
+     background-image: url(../images/contentone.jpg);
+     height: 185px;
+     background-position: center;
+     background-size: cover;
+     width: 185px;
 }
  .block-content {
      padding-left: 2em;
@@ -779,3 +780,4 @@
      margin-left: 1em;
 }
 /* End of last content */
+ 
