@@ -72,6 +72,13 @@
     }
 }
 /* End of query */
+/* Center the middle headings */
+ @media screen and (max-width: 550px) {
+     .h3-center {
+         margin-left: -2em;
+    }
+}
+/* End of query */
 /* Align content text at < 768px */
  @media screen and (max-width: 768px) {
      .content {
@@ -511,7 +518,7 @@
 }
 /* End of flex-item styles */
 /* Middle box content styles */
- @media (max-width: 504px) {
+ @media (max-width: 578px) {
      .block {
          flex-direction: column;
     }
