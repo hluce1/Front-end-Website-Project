@@ -71,11 +71,21 @@
          font-size: 0.4em;
     }
 }
+.h3-center {
+    font-size: 0.5em;
+    color: burlywood;
+}
 /* End of query */
-/* Center the middle headings */
- @media screen and (max-width: 550px) {
-     .h3-center {
-         margin-left: -2em;
+@media screen and (min-width: 839px) and (max-width: 1391px) {
+    .block {
+        zoom: 98%;
+        flex-direction: column;
+    }
+}
+/* End of query */
+@media screen and (min-width: 839px) and (max-width: 1391px) {
+    .h3-center {
+        margin-top: 2em;
     }
 }
 /* End of query */
@@ -679,6 +689,7 @@
 }
  .contact-heading {
      text-align: center;
+     color: burlywood;
      font-size: 2em;
      margin-bottom: 40px;
      font-family: 'Roboto', sans-serif;
