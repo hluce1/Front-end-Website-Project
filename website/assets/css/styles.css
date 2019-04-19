@@ -99,6 +99,7 @@
 /* Hero image styles */
  .hero-image {
      background-image: url(../images/black_and_white.jpg);
+     /*background-image: url(../images/black_and_white.jpg);*/
      min-height: 30em;
      position: relative;
      display: block;
@@ -481,7 +482,7 @@
      flex-wrap: wrap;
      align-items: center;
      margin-bottom: 2em;
-     padding: 0em 1em 0em;
+     padding: 0em 1em 3em;
 }
 /* Fix box sizes at different widths */
  @media screen and (min-width: 1526px) {
@@ -562,12 +563,33 @@
      width: 185px;
      height: 185px;
 }
- .middle-image {
-     background-image: url(../images/contenttwo.jpg);
-     vertical-align: middle;
-     border-style: none;
-     height: 185px;
-     width: 185px;
+ .middle-image1 {
+    background-image: url(../images/contentthree.jpg);
+    height: 185px;
+    background-position: center;
+    background-size: cover;
+    width: 185px;
+}
+ .middle-image2 {
+    background-image: url(../images/contentfive.jpg);
+    height: 185px;
+    background-position: center;
+    background-size: cover;
+    width: 185px;
+}
+ .middle-image3 {
+    background-image: url(../images/contentfour.jpg);
+    height: 185px;
+    background-position: center;
+    background-size: cover;
+    width: 185px;
+}
+ .middle-image4 {
+    background-image: url(../images/contentone.jpg);
+    height: 185px;
+    background-position: center;
+    background-size: cover;
+    width: 185px;
 }
  .block-content {
      padding-left: 2em;
