@@ -16,6 +16,21 @@
  html {
      background: #ffffff;
 }
+/* Skip to content button */
+ .skipbtn {
+    position: absolute;
+    top: -1000px;
+    margin-left: 0.1em;
+    text-align: left;
+    overflow: hidden;
+}
+ a.skipbtn:active, a.skipbtn:focus, a.skipbtn:hover {
+     left: 0;
+     top: 0;
+     width: auto;
+     height: auto;
+     overflow: visible;
+}
  body {
      font-family: "Tahoma", "Geneva", "sans-serif";
      font-size: 1em;
@@ -100,7 +115,7 @@
  .hero-image {
      background-image: url(../images/black_and_white.jpg);
     /*background-image: url(../images/black_and_white.jpg);
-    */
+     */
      min-height: 30em;
      position: relative;
      display: block;
@@ -371,6 +386,12 @@
      color: #000000;
      text-align: center;
 }
+/* Focus when tabbing to these links */
+ .footerclicked:focus, .footer:focus, .topbtn:focus {
+     outline-width: 2px;
+     outline-style: solid;
+     outline-color: blue;
+}
 /* Footer links main colour */
  .footerclicked, .footerclicked:visited {
      color: #060f82;
@@ -555,10 +576,10 @@
 }
 /* End of query */
 /* Styles for broken image links */
-img {
-    font-size: 0.5em;
-    color: #000000;
-    display: inline-block;
+ img {
+     font-size: 0.5em;
+     color: #000000;
+     display: inline-block;
 }
  .block {
      display: flex;
@@ -571,28 +592,24 @@ img {
      height: 185px;
 }
  .middle-image1 {
-     /*background-image: url(../images/contentthree.jpg);*/
      height: 185px;
      background-position: center;
      background-size: cover;
      width: 185px;
 }
  .middle-image2 {
-     background-image: url(../images/contentfive.jpg);
      height: 185px;
      background-position: center;
      background-size: cover;
      width: 185px;
 }
  .middle-image3 {
-     background-image: url(../images/contentfour.jpg);
      height: 185px;
      background-position: center;
      background-size: cover;
      width: 185px;
 }
  .middle-image4 {
-     background-image: url(../images/contentone.jpg);
      height: 185px;
      background-position: center;
      background-size: cover;

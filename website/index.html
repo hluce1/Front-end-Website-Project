@@ -12,24 +12,23 @@
       <meta name="viewport" content="width=device-width">
       <link rel="icon" type="image/png" href="assets/images/icon.png">
    </head>
+  <a href="#ContentStart" class="skipbtn">Skip to content (Press Enter) </a>
    <body>
-      <header class="container">
+      <header class="container" id="Home">
          <div>
-            <a id="Home">
                <h1 class="title">Tocumwal Houses Archive</h1>
-            </a>
          </div>
          <nav class="navbar">
             <ul>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="#">Archive Records</a></li>
-               <li><a href="#">Tocumwal Project Documents</a></li>
+               <li><a href="#Home">Home</a></li>
+               <li><a href="#Stories">Tocumwal Stories</a></li>
+               <li><a href="#Contact">Contact Us</a></li>
             </ul>
          </nav>
       </header>
       <main>
          <!-- Hero image -->
-         <div class="hero-image" alt="Image of the Tocumwal houses from the main archive" Title="Welcome">
+         <div class="hero-image" alt="Image of the Tocumwal houses from the main archive." Title="Welcome">
             <div id="welcome-wrapper">
                <h1 class="parallax-header">Welcome</h1>
             </div>
@@ -40,10 +39,10 @@
             <div>
                <section>
                   <header>
-                     <h3 class="h3body">The Tocumwal Archive</h3>
+                     <h3 class="h3body" id="ContentStart">The Tocumwal Archive</h3>
                   </header>
                   <article>
-                     <h4 class="headings">Introduction</h4>
+                     <h4 class="headings highlight">Introduction</h4>
                      <p class="content">
                         The Tocumwal Archive is a collection of stories and photographs, about living in the houses that were moved from the Tocumwal 
                         air force base in New South Wales, to the Canberra suburb of O'Connor.  
@@ -75,7 +74,7 @@
          </div>
          <!-- End of into content -->
          <!-- Second parallax scrolling image -->
-         <div class="parallax-image2" alt="Picture of a house from the Tocumwal archive" title="Tocumwal Stories">
+         <div id="Stories" class="parallax-image2" alt="Picture of a house from the Tocumwal archive" title="Tocumwal Stories">
             <div id="stories-wrapper" class="stories-background">
                <h1 class="parallax-header">Tocumwal Stories</h1>
             </div>
@@ -86,7 +85,7 @@
             <div>
                <div class="block">
                   <div class="block-image">
-                     <img src="assets/images/contenttree.jpg" class="middle-image1" title="test" alt="Archive image of soldiers resting in barracks">
+                     <img src="assets/images/contentthree.jpg" class="middle-image1" title="The Darryl McIntyre and Noel Flanagan story" alt="Archive image of soldiers resting in barracks.">
                   </div>
                   <div class="block-content">
                      <h3 class="story-heading">Dr Darryl McIntyre and Noel Flanagan</h3>
@@ -100,7 +99,7 @@
             <div>
                <div class="block">
                   <div class="block-image">
-                     <img class="middle-image2">
+                     <img src="assets/images/contentfive.jpg" class="middle-image2" title="The Sylvia Glenndenning story" alt="Coloured photo of a house from the Tocumwal archive.">
                   </div>
                   <div class="block-content">
                      <h3 class="story-heading">Sylvia Glenndenning</h3>
@@ -116,7 +115,7 @@
             <div>
                <div class="block">
                   <div class="block-image">
-                     <img class="middle-image3">
+                     <img src="assets/images/contentfour.jpg" class="middle-image3" title="The Sylvia Hollier story" alt="Coloured photo of a house from the Tocumwal archive.">
                   </div>
                   <div class="block-content">
                      <h3 class="story-heading">Sylvia Hollier</h3>
@@ -130,7 +129,7 @@
             <div>
                <div class="block">
                   <div class="block-image">
-                     <img class="middle-image4">
+                     <img src="assets/images/contentone.jpg" class="middle-image4" title="The Andrew Morris story" alt="Black and white photo of a house from the Tocumwal archive.">
                   </div>
                   <div class="block-content">
                      <h3 class="story-heading">Andrew Morris</h3>
@@ -143,7 +142,7 @@
          </div>
          <!-- End of middle content -->
          <!-- Contact From -->
-         <div class="contact-background">
+         <div class="contact-background" id="Contact">
             <header>
                <h2 class="contact-heading">Tell us your questions!</h2>
             </header>
@@ -159,6 +158,7 @@
                               type="text"
                               placeholder="Name*"
                               required
+                              title="Contact name field"
                               />
                         </div>
                         <div class="form-spacing">
@@ -168,6 +168,7 @@
                               type="email"
                               placeholder="Email*"
                               required
+                              title="Contact email field"
                               />
                         </div>
                         <div class="form-spacing">
@@ -177,6 +178,7 @@
                               type="tel"
                               placeholder="Phone Number"
                               optional
+                              title="Contact phone number field"
                               />
                         </div>
                         <div class="form-spacing">
@@ -187,10 +189,11 @@
                               maxlength="500"
                               placeholder="Your questions* (500 character limit)"
                               required
+                              title="Text field to add your questions"
                               ></textarea>
                         </div>
                         <div>
-                           <button class="submit-button">
+                           <button class="submit-button" title="Submit button">
                            Submit
                            </button>
                         </div>
@@ -207,10 +210,10 @@
             <!-- Anchor tag used as the back to top button -->
             <div> <a href="#Home" class="topbtn" title="Back to top button">Back to top</a> </div>
             <p> &#169; 0074 Tocumwal Houses Archive </p>
-            <p>Contact Us:<a class="footerclicked" href="#" title="Tocumwal Houses main website link">Tocumwal Houses</a></p>
-            <p>Email:<a class="footerclicked" href="#">Library.customerinfo@act.gov.au</a></p>
-            <p><a class="footerclicked" href="#">About Us</a></p>
-            <p><a class="footerclicked" href="#">FAQ</a></p>
+            <p>Find Us:<a class="footerclicked" href="#" title="Tocumwal Houses main website link">Tocumwal Houses</a></p>
+            <p>Email:<a class="footerclicked" href="#" title="Email the library.act.gov.au inbox">Library.customerinfo@act.gov.au</a></p>
+            <p><a class="footerclicked" href="#" title="Libraries ACT about us webpage">About Us</a></p>
+            <p><a class="footerclicked" href="#" title="Libraries ACT frequently asked questions webpage">FAQ</a></p>
          </footer>
       </div>
    </body>
