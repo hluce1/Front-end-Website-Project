@@ -116,6 +116,11 @@
          margin-right: 1em;
     }
 }
+/*test*/
+.required {
+    text-align: left;
+    color: red;
+}
 /* End of query */
 /* Hero image styles */
  .hero-image {
@@ -768,6 +773,9 @@
      line-height: 1.5em;
      color: #000000;
      border: 1px solid #ced4da;
+}
+textarea::placeholder {
+     display: block;  
 }
  .submit-button {
      display: inline-block;
