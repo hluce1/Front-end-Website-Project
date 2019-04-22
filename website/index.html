@@ -13,16 +13,16 @@
       <link rel="icon" type="image/png" href="assets/images/icon.png">
    </head>
    <body>
-       <a href="#ContentStart" class="skipbtn" title="Skip to main-content button">Skip to main-content (Press Enter) </a>
+      <a href="#ContentStart" class="skipbtn" title="Skip to main-content button">Skip to main-content (Press Enter) </a>
       <header class="container" id="Home">
          <div>
             <h1 class="title">Tocumwal Houses Archive</h1>
          </div>
          <nav class="navbar">
             <ul>
-               <li><a href="#Home" class="nav-links">Home</a></li>
-               <li><a href="#Stories">Tocumwal Stories</a></li>
-               <li><a href="#Contact">Contact Us</a></li>
+               <li><a href="#Home" title="Home page">Home</a></li>
+               <li><a href="#Stories" title="View the Tocumwal stories">Tocumwal Stories</a></li>
+               <li><a href="#Contact" title="Message us your questions">Message Us</a></li>
             </ul>
          </nav>
       </header>
@@ -34,12 +34,12 @@
             </div>
          </div>
          <!-- Flex container for into -->
-         <div class="flex-container1">
+         <div class="flex-container1" id="ContentStart">
             <!-- Left content -->
             <div>
                <section>
-                  <header>
-                     <h3 class="h3body" id="ContentStart">The Tocumwal Archive</h3>
+                  <header class="content-header">
+                     <h3 class="h3body">The Tocumwal Archive</h3>
                   </header>
                   <article>
                      <h4 class="headings highlight">Introduction</h4>
@@ -64,7 +64,7 @@
                      <h4 class="headings">Heritage</h4>
                      <p class="content">The Tocumwal Housing Precinct in O'Connor is significant as an outstanding example of low cost pre-fabricated housing, which was constructed in Canberra after World War 2.
                      </p>
-                     <p class="content">  As part of the Government's solution to the critical housing shortage being experienced in Canberra at the time, many of the houses originally constructed at Tocumwal
+                     <p class="content content3">  As part of the Government's solution to the critical housing shortage being experienced in Canberra at the time, many of the houses originally constructed at Tocumwal
                         in NSW for the US Army Air Corps were re-erected in the ACT. 
                      </p>
                   </article>
@@ -84,7 +84,7 @@
             <div>
                <div class="block">
                   <div class="block-image">
-                     <img src="assets/images/contentthree.jpg" class="middle-image1" title="The Darryl McIntyre and Noel Flanagan story" alt="Archive image of soldiers resting in barracks.">
+                     <img src="assets/images/contentthree.jpg" class="middle-image1" title="The Darryl McIntyre and Noel Flanagan story" alt="Soldiers resting inside the barracks.">
                   </div>
                   <div class="block-content">
                      <h3 class="story-heading">Dr Darryl McIntyre and Noel Flanagan:</h3>
@@ -98,7 +98,7 @@
             <div>
                <div class="block">
                   <div class="block-image">
-                     <img src="assets/images/contentfive.jpg" class="middle-image2" title="The Sylvia Glenndenning story" alt="Coloured photo of a house from the Tocumwal archive.">
+                     <img src="assets/images/contentfive.jpg" class="middle-image2" title="The Sylvia Glenndenning story" alt="Front porch of a Tocumwal house in O'Connor.">
                   </div>
                   <div class="block-content">
                      <h3 class="story-heading">Sylvia Glenndenning:</h3>
@@ -114,7 +114,7 @@
             <div>
                <div class="block">
                   <div class="block-image">
-                     <img src="assets/images/contentfour.jpg" class="middle-image3" title="The Sylvia Hollier story" alt="Coloured photo of a house from the Tocumwal archive.">
+                     <img src="assets/images/contentfour.jpg" class="middle-image3" title="The Sylvia Hollier story" alt="Front yard and the front of a Tocumwal house in O'Connor.">
                   </div>
                   <div class="block-content">
                      <h3 class="story-heading">Sylvia Hollier:</h3>
@@ -128,7 +128,7 @@
             <div>
                <div class="block">
                   <div class="block-image">
-                     <img src="assets/images/contentone.jpg" class="middle-image4" title="The Andrew Morris story" alt="Black and white photo of houses from the Tocumwal archive.">
+                     <img src="assets/images/contentone.jpg" class="middle-image4" title="The Andrew Morris story" alt="Tocumwal Houses in Ainslie. ACT HL.">
                   </div>
                   <div class="block-content">
                      <h3 class="story-heading">Andrew Morris:</h3>
@@ -143,15 +143,16 @@
          <!-- Contact From -->
          <div class="contact-background" id="Contact">
             <header>
-               <h2 class="contact-heading">Tell us your questions!</h2>
+               <h2 class="contact-heading">Message us your questions!</h2>
             </header>
             <section id="form">
+               <h5 class="secondary-heading" aria-hidden="true"> Message Form </h5>
                <div class="contact-wrap">
                   <article>
+                     <h5 class="secondary-heading" aria-hidden="true"> Message Form Fields </h5>
                      <!-- On click, the submit button will take users to the top of the page -->
-                     <form action="#Home"> 
+                     <form action="#Home">
                         <div class="required">Required fields indicated by: *</div>
-                        <!--<div class="required">This field is required.*</div> test -->
                         <div class="form-spacing">
                            <input
                               name="contact_name"
@@ -162,7 +163,6 @@
                               title="Required contact name field"
                               />
                         </div>
-                        <!--<div class="required">This field is required.*</div> test -->
                         <div class="form-spacing">
                            <input
                               name="contact_email"
@@ -211,10 +211,10 @@
             <!-- Anchor tag used as the back to top button -->
             <div> <a href="#Home" class="topbtn" title="Back to top button">Back to top</a> </div>
             <p> &#169; 0074 Tocumwal Houses Archive </p>
-            <p>About Tocumwal: <a class="footerclicked" href="https://www.library.act.gov.au/find/history/search/Manuscript_Collections/hmss_0074_tocumwal_houses_archive" title="Libraries ACT main webpage for the Tocumwal Houses Archive">Libraries ACT - Tocumwal Houses</a></p>
-            <p>Email: <a class="footerclicked" href="mailto:Library.customerinfo@act.gov.au" title="Email the library.act.gov.au inbox">Library.customerinfo@act.gov.au</a></p>
-            <p>Libraries ACT: <a class="footerclicked" href="https://www.library.act.gov.au/about/faqs" title="Libraries ACT frequently asked questions webpage">FAQ</a></p>
+            <p> <a class="footerclicked" href="https://www.library.act.gov.au/find/history/search/Manuscript_Collections/hmss_0074_tocumwal_houses_archive" title="Libraries ACT main webpage for the Tocumwal Houses Archive">About Tocumwal: Libraries ACT - Tocumwal Houses</a></p>
+            <p><a class="footerclicked" href="mailto:Library.customerinfo@act.gov.au" title="Email the library.act.gov.au inbox">Email: Library.customerinfo@act.gov.au</a></p>
+            <p><a class="footerclicked" href="https://www.library.act.gov.au/about/faqs" title="Libraries ACT frequently asked questions webpage">Libraries ACT: FAQ</a></p>
          </footer>
       </div>
-    </body>
+   </body>
 </html>
