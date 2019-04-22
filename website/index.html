@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <title>The Tocumwal Archive</title>
+      <title>The Tocumwal Houses Archive</title>
       <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
       <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
       <!-- 
@@ -12,8 +12,8 @@
       <meta name="viewport" content="width=device-width">
       <link rel="icon" type="image/png" href="assets/images/icon.png">
    </head>
-   <a href="#ContentStart" class="skipbtn">Skip to content (Press Enter) </a>
    <body>
+       <a href="#ContentStart" class="skipbtn" title="Skip to main-content button">Skip to main-content (Press Enter) </a>
       <header class="container" id="Home">
          <div>
             <h1 class="title">Tocumwal Houses Archive</h1>
@@ -28,7 +28,7 @@
       </header>
       <main>
          <!-- Hero image -->
-         <div class="hero-image" alt="" Title="Welcome">
+         <div class="hero-image" Title="Welcome">
             <div id="welcome-wrapper">
                <h1 class="parallax-header">Welcome</h1>
             </div>
@@ -49,8 +49,7 @@
                      </p>
                      <p class="content">
                         The base was built during the Second World War as an inland 
-                        defence against Japanese invasion. As camouflage, the sleeping quarters for air force personnel were built in the form of houses. 
-                        After the War.
+                        defence against Japanese invasion. As camouflage, the sleeping quarters for air force personnel were built in the form of houses, after the War.
                      </p>
                   </article>
                </section>
@@ -74,7 +73,7 @@
          </div>
          <!-- End of into content -->
          <!-- Second parallax scrolling image -->
-         <div id="Stories" class="parallax-image2" alt="" title="Tocumwal Stories">
+         <div id="Stories" class="parallax-image2" title="Tocumwal Stories">
             <div id="stories-wrapper" class="stories-background">
                <h1 class="parallax-header">Tocumwal Stories</h1>
             </div>
@@ -88,7 +87,7 @@
                      <img src="assets/images/contentthree.jpg" class="middle-image1" title="The Darryl McIntyre and Noel Flanagan story" alt="Archive image of soldiers resting in barracks.">
                   </div>
                   <div class="block-content">
-                     <h3 class="story-heading">Dr Darryl McIntyre and Noel Flanagan</h3>
+                     <h3 class="story-heading">Dr Darryl McIntyre and Noel Flanagan:</h3>
                      <p class="content2">
                         After the bombing of Darwin, the United States of America and Australia made joint plans for Australian inland defence. The Tocumwal airfield was the largest and first of several large airfields planned for construction in relation to the the line of possible Japanese advance. (contributed 2000)
                      </p>
@@ -102,7 +101,7 @@
                      <img src="assets/images/contentfive.jpg" class="middle-image2" title="The Sylvia Glenndenning story" alt="Coloured photo of a house from the Tocumwal archive.">
                   </div>
                   <div class="block-content">
-                     <h3 class="story-heading">Sylvia Glenndenning</h3>
+                     <h3 class="story-heading">Sylvia Glenndenning:</h3>
                      <p class="content2">
                         I remember seeing houses in sections going along the highway on big trucks. The Murray Valley Highway was really narrow and they seemed to take up all of the road. I knew they came from Tocumwal but I didn't know where they were going.  (contributed 1996)
                      </p>
@@ -118,7 +117,7 @@
                      <img src="assets/images/contentfour.jpg" class="middle-image3" title="The Sylvia Hollier story" alt="Coloured photo of a house from the Tocumwal archive.">
                   </div>
                   <div class="block-content">
-                     <h3 class="story-heading">Sylvia Hollier</h3>
+                     <h3 class="story-heading">Sylvia Hollier:</h3>
                      <p class="content2">
                         My family was aware of Tocumwal and its houses long before they became a feature of the streets of O'Connor. My father, Hartley Hollier, was a serving member of the RAAF from 1936-46 and was actually stationed at Tocumwal. (contributed 1996)
                      </p>
@@ -132,7 +131,7 @@
                      <img src="assets/images/contentone.jpg" class="middle-image4" title="The Andrew Morris story" alt="Black and white photo of houses from the Tocumwal archive.">
                   </div>
                   <div class="block-content">
-                     <h3 class="story-heading">Andrew Morris</h3>
+                     <h3 class="story-heading">Andrew Morris:</h3>
                      <p class="content2">
                         We arrived in Australia in 1966 and bought this house in Quinn Street, O'Connor. The house, a Tocumwal type, had a huge back yard. There were all types of fruit trees, pencil pines and nut trees growing. But it was the large block off the beaten track that attracted me. (contriubted 1996)
                      </p>
@@ -150,7 +149,8 @@
                <div class="contact-wrap">
                   <article>
                      <!-- On click, the submit button will take users to the top of the page -->
-                     <form action="#Home">
+                     <form action="#Home"> 
+                        <div class="required">Required fields indicated by: *</div>
                         <!--<div class="required">This field is required.*</div> test -->
                         <div class="form-spacing">
                            <input
@@ -159,7 +159,7 @@
                               type="text"
                               placeholder="Name*"
                               required
-                              title="Contact name field"
+                              title="Required contact name field"
                               />
                         </div>
                         <!--<div class="required">This field is required.*</div> test -->
@@ -170,7 +170,7 @@
                               type="email"
                               placeholder="Email*"
                               required
-                              title="Contact email field"
+                              title="Required contact email field"
                               />
                         </div>
                         <div class="form-spacing">
@@ -178,21 +178,19 @@
                               name="contact_phone"
                               class="form-area"
                               type="tel"
-                              placeholder="Phone Number"
-                              optional
-                              title="Contact phone number field"
+                              placeholder="Phone Number (optional)"
+                              title="Optional contact phone number field"
                               />
                         </div>
                         <div class="form-spacing">
                            <textarea
                               name="contact_questions"
                               class="form-area"
-                              type="text"
                               maxlength="500"
                               placeholder="Your questions* (500 character limit)"
                               required
-                              aria-labelledby="textarea"
-                              title="Text field to add your questions (500 character limit)"
+                              aria-labelledby="test"
+                              title="Required text field to add your questions (500 character limit)"
                               ></textarea>
                         </div>
                         <div>
@@ -213,11 +211,10 @@
             <!-- Anchor tag used as the back to top button -->
             <div> <a href="#Home" class="topbtn" title="Back to top button">Back to top</a> </div>
             <p> &#169; 0074 Tocumwal Houses Archive </p>
-            <p>Find Us:<a class="footerclicked" href="#Home" title="Tocumwal Houses main website link">Tocumwal Houses</a></p>
-            <p>Email:<a class="footerclicked" href="#Home" title="Email the library.act.gov.au inbox">Library.customerinfo@act.gov.au</a></p>
-            <p><a class="footerclicked" href="#Home" title="Libraries ACT about us webpage">About Us</a></p>
-            <p><a class="footerclicked" href="#Home" title="Libraries ACT frequently asked questions webpage">FAQ</a></p>
+            <p>About Tocumwal: <a class="footerclicked" href="https://www.library.act.gov.au/find/history/search/Manuscript_Collections/hmss_0074_tocumwal_houses_archive" title="Libraries ACT main webpage for the Tocumwal Houses Archive">Libraries ACT - Tocumwal Houses</a></p>
+            <p>Email: <a class="footerclicked" href="mailto:Library.customerinfo@act.gov.au" title="Email the library.act.gov.au inbox">Library.customerinfo@act.gov.au</a></p>
+            <p>Libraries ACT: <a class="footerclicked" href="https://www.library.act.gov.au/about/faqs" title="Libraries ACT frequently asked questions webpage">FAQ</a></p>
          </footer>
       </div>
-   </body>
+    </body>
 </html>

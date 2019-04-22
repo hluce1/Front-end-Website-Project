@@ -31,6 +31,29 @@
      height: auto;
      overflow: visible;
 }
+/* Skip to content for tablet and below resolutions */
+@media screen and (max-width: 900px) {
+    .skipbtn {
+    position: absolute;
+    top: -1000px; 
+    margin-left: 6em;
+    margin-top: 6em;
+    color: blue;
+    margin-left: 0.1em;
+    font-size: 1em;
+    text-align: left;
+    z-index: 1;
+    overflow: hidden;
+    }
+     a.skipbtn:active, a.skipbtn:focus, a.skipbtn:hover {
+     left: 0;
+     top: 0;
+     width: auto;
+     height: auto;
+     overflow: visible;
+    }
+}
+
  body {
      font-family: "Tahoma", "Geneva", "sans-serif";
      font-size: 1em;
@@ -119,7 +142,7 @@
 /*test*/
 .required {
     text-align: left;
-    color: red;
+    color: #000000;
 }
 /* End of query */
 /* Hero image styles */
@@ -206,7 +229,6 @@
      flex-direction: column;
      padding: 1em 0;
      border-bottom: 1px solid #909090;
-     margin-bottom: 0.1em;
 }
  .navbar {
      width: inherit;
@@ -346,6 +368,7 @@
  @media screen and (max-width: 866px) {
      .navbar a {
          color: #ffffff;
+         border-bottom: 1px solid #000000;
     }
 }
 /* End of query */
