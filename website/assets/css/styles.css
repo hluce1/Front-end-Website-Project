@@ -158,7 +158,18 @@
 /* Align required text for form */
  .required {
      text-align: left;
+     margin-bottom: 15px;
      color: #000000;
+}
+ .form-field {
+     text-align: left;
+     color: #000000;
+     margin-top: 7px;
+     margin-bottom: 2px;
+}
+.asterisk {
+    color: red;
+    text-align: left !important;
 }
 /* End of query */
 /* Hero image styles */
