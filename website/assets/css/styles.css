@@ -37,7 +37,6 @@
      .skipbtn {
          position: absolute;
          top: -1000px;
-         margin-left: 6em;
          margin-top: 6em;
          color: blue;
          margin-left: 0.1em;
@@ -71,7 +70,7 @@
 }
  p {
      font-family: "Tahoma", "Geneva", "sans-serif";
-     font-size: 0.85em;
+     font-size: 0.95em;
 }
 /* Styled titles */
  .h3body {
@@ -123,9 +122,9 @@
 }
 /* End of query */
  .story-heading {
-     font-size: 0.5em;
+     font-size: 0.6em;
      color: burlywood;
-     font-weight: bold;
+     font-weight: unset;
 }
 /* End of query */
  @media screen and (min-width: 839px) and (max-width: 1391px) {
@@ -409,7 +408,7 @@
          color: #000000cf;
          text-align: center;
          text-decoration: none;
-         font-size: 20px;
+         font-size: 24px;
          padding: 10px;
          margin-top: 0.2em;
     }
@@ -445,7 +444,7 @@
      clear: both;
      padding: 1.2em;
      font-size: 0.8em;
-     font-weight: bold;
+     /* font-weight: bold; */
      color: #000000;
      text-align: center;
 }
@@ -470,7 +469,7 @@
          padding: 1.2em;
          margin-left: 9em;
          font-size: 0.8em;
-         font-weight: bold;
+        /* font-weight: bold; */
          color: #000000;
          text-align: center;
     }
@@ -483,7 +482,7 @@
          clear: both;
          padding: 1.2em;
          font-size: 0.8em;
-         font-weight: bold;
+        /* font-weight: bold; */
          color: #ffffff;
          text-align: center;
          background-color: #000000;
