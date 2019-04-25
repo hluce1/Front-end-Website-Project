@@ -148,7 +148,7 @@
 }
 /* End of query */
 /* Align required text for form */
- .required {
+ .align-required {
      text-align: left;
      margin-bottom: 15px;
      color: #000000;
@@ -159,7 +159,7 @@
      margin-top: 7px;
      margin-bottom: 2px;
 }
-.asterisk {
+.required {
     color: red;
     text-align: left !important;
     font-size: 20px;
