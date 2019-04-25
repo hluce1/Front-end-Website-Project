@@ -32,25 +32,13 @@
      height: auto;
      overflow: visible;
 }
-/* Skip to content for tablet and below resolutions */
+/* Remove skip to content for tablet and below resolutions */
  @media screen and (max-width: 900px) {
      .skipbtn {
-         position: absolute;
-         top: -1000px;
-         margin-top: 6em;
-         color: blue;
-         margin-left: 0.1em;
-         font-size: 1em;
-         text-align: left;
-         z-index: 1;
-         overflow: hidden;
+     display: none;
     }
      a.skipbtn:active, a.skipbtn:focus, a.skipbtn:hover {
-         left: 0;
-         top: 0;
-         width: auto;
-         height: auto;
-         overflow: visible;
+       display: none;
     }
 }
 /* End of query */
@@ -71,6 +59,11 @@
  p {
      font-family: "Tahoma", "Geneva", "sans-serif";
      font-size: 0.95em;
+}
+@media screen and (max-width: 900px) {
+    .main-title {
+        display: none;
+    }
 }
 /* Styled titles */
  .h3body {
@@ -341,11 +334,13 @@
  @media screen and (max-width: 1460px) {
      .parallax-header {
          font-size: 6em;
+         margin-top: 0.9em;
     }
 }
  @media screen and (max-width: 768px) {
      .parallax-header {
          font-size: 4em;
+         margin-top: 2em;
     }
 }
 /* End of query */
