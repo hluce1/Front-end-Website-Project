@@ -152,9 +152,9 @@
                      <h5 class="secondary-heading" aria-hidden="true"> Contact Information and Questions </h5>
                      <!-- On click, the submit button will take users to the top of the page -->
                      <form action="#Home">
-                        <div class="required">Required fields indicated by:<span class="asterisk">*</span></div>
+                        <div class="required">Required fields indicated by: <span class="asterisk">*</span></div>
                         <div class="form-spacing">
-                           <div class="form-field">First name<span class="asterisk">*</span></div>
+                           <label class="form-field">First name <span class="asterisk" title="This field is required.">*</span></label>
                            <input
                               name="contact_name"
                               class="form-area"
@@ -166,7 +166,7 @@
                               /> 
                         </div>
                         <div class="form-spacing">
-                           <div class="form-field">Email<span class="asterisk">*</span></div>
+                           <label class="form-field">Email <span class="asterisk" title="This field is required.">*</span></label>
                            <input
                               name="contact_email"
                               class="form-area"
@@ -178,7 +178,7 @@
                               />
                         </div>
                         <div class="form-spacing">
-                           <div class="form-field">Phone number</div>
+                           <label class="form-field">Phone number</label>
                            <input
                               name="contact_phone"
                               class="form-area"
@@ -188,19 +188,19 @@
                               />
                         </div>
                         <div class="form-spacing">
-                           <div class="form-field">Your questions<span class="asterisk">*</span></div>
+                           <label class="form-field">Your questions <span class="asterisk" title="This field is required.">*</span></label>
                            <textarea
                               name="contact_questions"
                               class="form-area"
                               maxlength="500"
                               placeholder="Enter your questions (500 character limit)"
-                              aria-label="required-question-field"
+                              aria-label="Required question field (500 character limit)"
                               required
                               title="Required text field to add your questions (500 character limit)"
                               ></textarea>
                         </div>
-                        <div>
-                           <button class="submit-button" title="Submit button">
+                        <div id="submit-center">
+                           <button class="submit-button" title="Submit button" aria-label="submit form">
                            Submit
                            </button>
                         </div>

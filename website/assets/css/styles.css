@@ -169,6 +169,7 @@
 .asterisk {
     color: red;
     text-align: left !important;
+    font-size: 20px;
 }
 /* End of query */
 /* Hero image styles */
@@ -795,9 +796,6 @@
     }
 }
 /* End of form queries */
- .contact-wrap {
-     text-align: center;
-}
  .contact-heading {
      text-align: center;
      color: burlywood;
@@ -833,6 +831,9 @@
  textarea::placeholder {
      display: block;
 }
+#submit-center {
+     text-align: center;
+}
  .submit-button {
      display: inline-block;
      border: 1px solid #f3bd0694;
@@ -840,6 +841,7 @@
      font-size: 1.3em;
      padding: 0.7em 2.3em;
      border-radius: 12px;
+      
 }
 /* Second flex container */
  .flex-container2 {
