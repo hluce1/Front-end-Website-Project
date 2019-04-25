@@ -66,7 +66,7 @@
     }
 }
 /* Styled titles */
- .h3body {
+ .h2body {
      text-align: center;
      color: burlywood;
      text-shadow: 1px 1px 2px black;
@@ -102,7 +102,7 @@
 }
 /* Make all content text smaller */
  @media screen and (max-width: 550px) {
-     .h3body {
+     .h2body {
          font-size: 0.7em;
     }
      .headings {
@@ -433,6 +433,7 @@
 /*test*/
 .secondary-heading {
     visibility: hidden;
+    font-size: 10px;
 }
 /* Footer styles */
  footer {
