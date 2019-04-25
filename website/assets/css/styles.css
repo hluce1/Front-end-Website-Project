@@ -35,10 +35,10 @@
 /* Remove skip to content for tablet and below resolutions */
  @media screen and (max-width: 900px) {
      .skipbtn {
-     display: none;
+         display: none;
     }
      a.skipbtn:active, a.skipbtn:focus, a.skipbtn:hover {
-       display: none;
+         display: none;
     }
 }
 /* End of query */
@@ -60,9 +60,9 @@
      font-family: "Tahoma", "Geneva", "sans-serif";
      font-size: 0.95em;
 }
-@media screen and (max-width: 900px) {
-    .main-title {
-        display: none;
+ @media screen and (max-width: 900px) {
+     .main-title {
+         display: none;
     }
 }
 /* Styled titles */
@@ -159,10 +159,10 @@
      margin-top: 7px;
      margin-bottom: 2px;
 }
-.required {
-    color: red;
-    text-align: left !important;
-    font-size: 20px;
+ .required {
+     color: red;
+     text-align: left !important;
+     font-size: 20px;
 }
 /* End of query */
 /* Hero image styles */
@@ -431,9 +431,9 @@
      display: inline-block;
 }
 /*test*/
-.secondary-heading {
-    visibility: hidden;
-    font-size: 10px;
+ .secondary-heading {
+     visibility: hidden;
+     font-size: 10px;
 }
 /* Footer styles */
  footer {
@@ -441,7 +441,8 @@
      clear: both;
      padding: 1.2em;
      font-size: 0.8em;
-     /* font-weight: bold; */
+    /* font-weight: bold;
+     */
      color: #000000;
      text-align: center;
 }
@@ -456,7 +457,7 @@
      color: #000000;
 }
  .footerclicked:hover {
-    color: blue !important;
+     color: blue !important;
 }
 /* Footer styles above tablets */
  @media screen and (min-width: 900px) {
@@ -477,7 +478,8 @@
          clear: both;
          padding: 1.2em;
          font-size: 0.8em;
-        /* font-weight: bold; */
+        /* font-weight: bold;
+         */
          color: #ffffff;
          text-align: center;
          background-color: #000000;
@@ -827,7 +829,7 @@
  textarea::placeholder {
      display: block;
 }
-#submit-center {
+ #submit-center {
      text-align: center;
 }
  .submit-button {
@@ -837,7 +839,6 @@
      font-size: 1.3em;
      padding: 0.7em 2.3em;
      border-radius: 12px;
-      
 }
 /* Second flex container */
  .flex-container2 {
