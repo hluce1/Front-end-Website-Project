@@ -71,3 +71,5 @@ layout: default
 
 ![Branching](https://user-images.githubusercontent.com/47615809/57193741-f85fc100-6f81-11e9-807e-ae60a5b612e6.png)
 <br>
+
+*   Please note, if the images fail to load, a word document is available for download here:  [Audit](https://github.com/hluce1/Front-end-Website-Project/blob/master/audit/accessibility_audit.docx)
