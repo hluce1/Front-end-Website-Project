@@ -8,7 +8,7 @@ layout: default
 
 ### [1] 1.1.1 Non-text Content - Provide text alternatives for non-text content
 
-![Branching](https://github.com/hluce1/Front-end-Website-Project/blob/master/audit/a_images/1.png)
+![Branching](https://user-images.githubusercontent.com/47615809/57193546-b33a8f80-6f7f-11e9-841c-ef686c62090f.png)
 <br>
 
 ### [2] 1.3.1 Info and Relationships - Logical structure
