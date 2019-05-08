@@ -12,7 +12,7 @@ layout: default
 
 <p align="justify">The last approach was to refine all usability and accessibility errors and implement fixes when they were needed. This was because the rounds of usability testing and accessibility testing showed where the site would need certain tweaks or changes. The usability testing was carried out through cognitive walkthroughs, to determine what tasks users would follow in order to use the site. While the accessibility tests came from the WCAG checklist and the final audit.</p>
 <!--wireframes-->
-![Branching](https://user-images.githubusercontent.com/47615809/57367197-e709f500-71cb-11e9-91e5-9aea57b145c5.png)
+![Branching](https://user-images.githubusercontent.com/47615809/57372672-ab762780-71d9-11e9-9720-8746dc4507e1.png)
 
 <h2>Designs that inspired me:</h2>
 
