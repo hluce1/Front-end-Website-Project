@@ -68,19 +68,19 @@ layout: default
 
 ## Perceivable
 
-![Branching](https://user-images.githubusercontent.com/47615809/57357601-a358c080-71b6-11e9-8a7e-9d3a51c7649e.png)
+![Branching](https://user-images.githubusercontent.com/47615809/57373550-fc871b00-71db-11e9-9586-894f2dd7a9cc.png)
 
 ## Operable
 
-![Branching](https://user-images.githubusercontent.com/47615809/57357613-abb0fb80-71b6-11e9-8bdf-8f4b5a7cbf3d.png)
+![Branching](https://user-images.githubusercontent.com/47615809/57373402-9bf7de00-71db-11e9-9f40-b89b6705d984.png)
 
 ## Understandable
 
-![Branching](https://user-images.githubusercontent.com/47615809/57357628-b4093680-71b6-11e9-8a62-bd70ee0e0a13.png)
+![Branching](https://user-images.githubusercontent.com/47615809/57373564-0446bf80-71dc-11e9-8db2-6da33fccb743.png)
 
 ## Robust
 
-![Branching](https://user-images.githubusercontent.com/47615809/57357768-0cd8cf00-71b7-11e9-8dc6-8123e9ac29bc.png)
+![Branching](https://user-images.githubusercontent.com/47615809/57373572-0c066400-71dc-11e9-8b90-85ebcbadd2bd.png)
 <br>
 
 <h5> Other: </h5>
