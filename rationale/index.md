@@ -87,7 +87,7 @@ layout: default
 
 <h5> Other: </h5>
 *   As discussed with Ben, guideline 1.4.2 wasn't necessary.
-*   A complete audit for the target audience can be found here  [(external link)](https://hluce1.github.io/Front-end-Website-Project/audit/)
+*   A complete audit for the target audience can be found here  [(Audit link)](https://hluce1.github.io/Front-end-Website-Project/audit/)
 <br>
 
 <h2> Annotated Resource List </h2>
