@@ -66,6 +66,8 @@ layout: default
 
 # Accessibility Audit
 
+<p text-algin="justify"> Web accessibility provides a way for all users of the web to have access to the content of a website.  By designing websites with cognitive impairments and disabilities in mind, this approach to web design, development and implementation is now a needed standard that websites should adhere to especially when it is required by law. Using the WCAG guidelines to evaluate this static site has addressed multiple issues and was used to determine the overall final accessibility of the site.</p>
+
 ## Perceivable
 
 ![Branching](https://user-images.githubusercontent.com/47615809/57373550-fc871b00-71db-11e9-9586-894f2dd7a9cc.png)
