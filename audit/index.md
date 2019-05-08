@@ -74,5 +74,5 @@ layout: default
 
 *   Please note, if the images fail to load, a word document is available for download here:  [Audit.docx](https://github.com/hluce1/Front-end-Website-Project/blob/master/audit/accessibility_audit.docx)
 
-*   [Github Pages Home](https://hluce1.github.io/Front-end-Website-Project/)
+*   [Github pages project home](https://hluce1.github.io/Front-end-Website-Project/)
 
