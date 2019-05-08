@@ -11,8 +11,8 @@ layout: default
 <p align="justify">Overall for the final assessment, the first wireframe sketch was made to reflect how the current content could be built upon further for a more responsive design. While the second wireframe was used after all the content needed was planned. This wireframe became the final building block referred to when making this site.</p>
 
 <p align="justify">The last approach was to refine all usability and accessibility errors and implement fixes when they were needed. This was because the rounds of usability testing and accessibility testing showed where the site would need certain tweaks or changes. The usability testing was carried out through cognitive walkthroughs, to determine what tasks users would follow in order to use the site. While the accessibility tests came from the WCAG checklist and the final audit.</p>
-
-![Branching](https://user-images.githubusercontent.com/47615809/57345253-7cd25f80-718d-11e9-8560-c1b9ed94d48d.png)
+<!--wireframes-->
+![Branching](https://user-images.githubusercontent.com/47615809/57367197-e709f500-71cb-11e9-91e5-9aea57b145c5.png)
 
 <h2>Designs that inspired me:</h2>
 
