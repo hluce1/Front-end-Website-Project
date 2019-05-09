@@ -6,7 +6,7 @@ layout: default
 
 <h2>Assignment Approach:</h2>
 
-<p align="justify">In the beginning phases of this assessment the focus was centered on how to incorporate the main content from the Tocumwal archive into this final site in an accessible and fully responsive way. Utilising the previous assignment I expected to use a lot of the same written content and then to continue designing the site for this assessment. This went as planned however, a lot of the content from the previous assessment was cut as it was unnecessary, both in terms of design and usability. </p>
+<p align="justify">In the beginning phases of this assessment, the focus was centred on how to incorporate the main content from the Tocumwal archive into this final site in an accessible and fully responsive way. Utilising the previous assignment I expected to use a lot of the same written content and then to continue designing the site for this assessment. This went as planned however, a lot of the content from the previous assessment was cut as it was unnecessary, both in terms of design and usability. </p>
 
 <p align="justify">Overall for the final assessment, the first wireframe sketch was made to reflect how the current content could be built upon further for a more responsive design. While the second wireframe was used after all the content needed was planned. This wireframe became the final building block referred to when making this site.</p>
 
@@ -31,7 +31,7 @@ layout: default
   
 * Making the main responsive content the Tocumwal stories section and the contact form. Using flexboxes and containers to create these sections. 
   
-* Inspiration from Colorlibs (image 3) navigation bar. However opting not to use the hamburger menu. 
+* Inspiration from Colorlibs (image 3) navigation bar. However, opted not to use the hamburger menu. 
 
 *	Utilising flexboxes for when the content would need to be at smaller resolutions. Some trouble with this did occur when more than two flexboxes were added to the one container, so I just created two containers instead. 
 
@@ -52,14 +52,14 @@ layout: default
 
 <h2> Challenges </h2>
 
-<p> Main challanges: </p>
+<p> Main Challenges: </p>
 
 * Accessibility:
-  - The main accessibility issue came from having a back to top button. This made the visual presentation of the content not match the order of the code. The fix was just to remove it all together, as users aren’t scrolling on the site for long. 
+  - The main accessibility issue came from having a back to top button. This made the visual presentation of the content not match the order of the code. The fix was just to remove it altogether, as users aren’t scrolling on the site for long. 
   
 * Usability:
-  - The inconsistency of the site needed to be fixed. Having a green submit button, and other colours in the form that don't match with the rest of the site. WCAG also recommends having fully red labels for required form fields, but ultimately I decided against that, and just have it for each asterisk.
-  - Content at different resolutions for mobiles and screens above 2K, could become hard to read. So the font sizes needed to be changed for mobiles and all content for 2K and above resolutions have a CSS zoom property applied to help scale the content. 
+  - The inconsistency of the site needed to be fixed. Having a green submit button and other colours in the form that don't match with the rest of the site. WCAG also recommends having fully red labels for required form fields, but ultimately I decided against that, and just have it for each asterisk.
+  - Content at different resolutions for mobiles and screens above 2K could become hard to read. So the font sizes needed to be changed for mobiles and all content for 2K and above resolutions have a CSS zoom property applied to help scale the content. 
   
 * Both:
   - Using the correct from elements and attributes for screen readers, there needs to be a logical flow to the order of the content read to users. A lot of time was spent making the form read logically for all user types and represented in a visual way that was accessible. The main fixes where label names and making red asterisks.   
@@ -102,11 +102,11 @@ layout: default
 
 <p>3) <b>James, O. (2017). Flexbox | HTML & CSS Is Hard. [ONLINE] Internetingishard.com. Available at: https://internetingishard.com/html-and-css/flexbox/ [Accessed 9 May 2019].</b></p>
 
-<p align="justify">The flexbox and its necessary functions are defined in depth within this development tutorial. James Oliver shows the how underlying code for creating flexboxes and containers can be designed to behave how users develop them to. This in turn, allows for creating responsive content in a versatile way for a clear and modern layout design in websites.</p>
+<p align="justify">The flexbox and its necessary functions are defined in depth within this development tutorial. James Oliver shows how the underlying code for creating flexboxes and containers can behave how users intend for it to, during the development. This, in turn, allows for creating responsive content in a versatile way for clear and modern layout designs in websites.</p>
 
 <p align="justify">4) <b>Martsoukos, G. (2016). How to Build a Responsive Form With Flexbox. [ONLINE] Web Design Envato Tuts+. Available at: https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 [Accessed 9 May 2019].</b></p>
 
-<p align="justify">The author of this content gives insight into how a form can be made to be responsive without using media queries. This is achieved with the flexbox in code. Using HTML and CSS only, a responsive contact from has been created and leaves room for individuals to add their own aesthetic styles to it.</p>
+<p align="justify">The author of this content gives insight into how a form can be made to be responsive without using media queries. This is achieved with the flexbox in code. Using HTML and CSS only, a responsive contact form has been created and leaves room for individuals to add their own aesthetic styles to it.</p>
 
 <hr>
  
