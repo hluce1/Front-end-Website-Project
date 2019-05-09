@@ -6,7 +6,7 @@ layout: default
 
 <h2>Assignment Approach:</h2>
 
-<p align="justify">In the beginning phases of this assessment the focus was centered on how to incorporate the main content from the Tocumwal archive into this final site in an accessible and fully responsive way. Utilising the previous assignment I expected to use a lot of the same written content and then to continue designing the site for this assessment. This went as planned however, a lot of the content from the previous assessment was cut as it was unnecessary, both in terms of design and usability. </p>
+<p align="justify">In the beginning phases of this assessment, the focus was centred on how to incorporate the main content from the Tocumwal archive into this final site in an accessible and fully responsive way. Utilising the previous assignment I expected to use a lot of the same written content and then to continue designing the site for this assessment. This went as planned however, a lot of the content from the previous assessment was cut as it was unnecessary, both in terms of design and usability. </p>
 
 <p align="justify">Overall for the final assessment, the first wireframe sketch was made to reflect how the current content could be built upon further for a more responsive design. While the second wireframe was used after all the content needed was planned. This wireframe became the final building block referred to when making this site.</p>
 
@@ -29,11 +29,11 @@ layout: default
 
 <p>The site took inspiration from the above website designs and lead to the following design decisions: </p>
   
-* Making the main responsive content the Tocumwal stories section and the contact form. Using flex boxes and containers to create these sections. 
+* Making the main responsive content the Tocumwal stories section and the contact form. Using flexboxes and containers to create these sections. 
   
-* Inspiration from Colorlibs (image 3) navigation bar. However opting not to use the hamburger menu. 
+* Inspiration from Colorlibs (image 3) navigation bar. However, opted not to use the hamburger menu. 
 
-*	Utilising flex boxes for when the content would need to be at smaller resolutions. Some trouble with this did occur when more than two flex boxes were added to the one container, so I just created two containers instead. 
+*	Utilising flexboxes for when the content would need to be at smaller resolutions. Some trouble with this did occur when more than two flexboxes were added to the one container, so I just created two containers instead. 
 
 *	Using CSS and HTML only parallax images.
 
@@ -52,14 +52,14 @@ layout: default
 
 <h2> Challenges </h2>
 
-<p> Main challanges: </p>
+<p> Main Challenges: </p>
 
 * Accessibility:
-  - The main accessibility issue came from having a back to top button. This made the visual presentation of the content not match the order of the code. The fix was just to remove it all together as users aren’t scrolling on this site for long. 
+  - The main accessibility issue came from having a back to top button. This made the visual presentation of the content not match the order of the code. The fix was just to remove it altogether, as users aren’t scrolling on the site for long. 
   
 * Usability:
-  - The inconsistency of the site needed to be fixed. Having a green submit button, and other colours in the form didn’t match with the rest of the site. WCAG also recommends having fully red labels for required form fields, but ultimately I decided against that, and just have it for the asterisks.
-  - Content at different resolutions for mobile and screen above 2K, could become hard to read. So the font sizes needed to be changed for mobiles and all content for 2K and above resolutions have a CSS zoom property applied to help scale the content. 
+  - The inconsistency of the site needed to be fixed. Having a green submit button and other colours in the form that don't match with the rest of the site. WCAG also recommends having fully red labels for required form fields, but ultimately I decided against that, and just have it for each asterisk.
+  - Content at different resolutions for mobiles and screens above 2K could become hard to read. So the font sizes needed to be changed for mobiles and all content for 2K and above resolutions have a CSS zoom property applied to help scale the content. 
   
 * Both:
   - Using the correct from elements and attributes for screen readers, there needs to be a logical flow to the order of the content read to users. A lot of time was spent making the form read logically for all user types and represented in a visual way that was accessible. The main fixes where label names and making red asterisks.   
@@ -92,3 +92,67 @@ layout: default
 
 <h2> Annotated Resource List </h2>
 
+<p>1) <b>Coyier, C. (2014). Responsive Meta Tag | CSS-Tricks. [ONLINE] CSS-Tricks. Available at: https://css-tricks.com/snippets/html/responsive-meta-tag/ [Accessed 9 May 2019].</b></p>
+
+<p align="justify">Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale down to fit users different devices sizes.</p>
+
+<p>2) <b>Idris, M. (2017). Flexbox: Building a navigation bar (Part 2/2). [ONLINE] codeburst. Available at: https://codeburst.io/flexbox-building-a-navigation-part-2-2-6cc58b9d4173 [Accessed 9 May 2019].</b></p>
+
+<p align="justify">In this article, Maret Idris demonstrates using the CSS box model that flex containers can be used to create a responsive navigation bar. She outlines the unordered list and logo she is using will adjust properly to the width of the screen because of the classes she has added, these classes will also separate the content to stop them from overlapping.</p>
+
+<p>3) <b>James, O. (2017). Flexbox | HTML & CSS Is Hard. [ONLINE] Internetingishard.com. Available at: https://internetingishard.com/html-and-css/flexbox/ [Accessed 9 May 2019].</b></p>
+
+<p align="justify">The flexbox and its necessary functions are defined in depth within this development tutorial. James Oliver shows how the underlying code for creating flexboxes and containers can behave how users intend for it to, during the development. This, in turn, allows for creating responsive content in a versatile way for clear and modern layout designs in websites.</p>
+
+<p align="justify">4) <b>Martsoukos, G. (2016). How to Build a Responsive Form With Flexbox. [ONLINE] Web Design Envato Tuts+. Available at: https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 [Accessed 9 May 2019].</b></p>
+
+<p align="justify">The author of this content gives insight into how a form can be made to be responsive without using media queries. This is achieved with the flexbox in code. Using HTML and CSS only, a responsive contact form has been created and leaves room for individuals to add their own aesthetic styles to it.</p>
+
+<hr>
+ 
+<h2>Bibliography</h2>
+
+A11y-guidelines.orange.com. (2019). Accessible hiding. [ONLINE] 
+Available at: https://a11y-guidelines.orange.com/web_EN/exemples/masquage/index.html [Accessed 9 May 2019].
+
+Colorlib. (2019). Mosaic - Free Architecture Portfolio Website Template 2019 - Colorlib. [ONLINE] Available at: https://colorlib.com/wp/template/mosaic/ 
+[Accessed 9 May 2019].
+
+Dodson, R. (2019). How To Do an Accessibility Review | Web Fundamentals | Google Developers. [ONLINE] Google Developers. 
+Available at: https://developers.google.com/web/fundamentals/accessibility/how-to-review#try_it_with_a_screen_reader 
+[Accessed 9 May 2019].
+
+Incognitothemes.com. (2017). Alpha. - Multipurpose HTML5 Template. [ONLINE] 
+Available at: http://www.incognitothemes.com/alpha/restaurant.html 
+[Accessed 9 May 2019].
+
+Jones, A. (2013). Web Accessibility: Skip Navigation Links. [ONLINE] Big Nerd Ranch. 
+Available at: https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ 
+[Accessed 9 May 2019].
+
+Leiserson, A. (2017). Decorative Images. [ONLINE] W3.org. 
+Available at: https://www.w3.org/WAI/tutorials/images/decorative/ 
+[Accessed 9 May 2019].
+
+Media Genesis. (2018). Popular screen resolutions: designing websites for all » Media Genesis. [ONLINE] 
+Available at: https://mediag.com/blog/popular-screen-resolutions-designing-for-all/ 
+[Accessed 9 May 2019].
+
+Tooplate. (2019). Free HTML CSS Templates. [ONLINE] 
+Available at: https://www.tooplate.com/ 
+[Accessed 18th April. 2019].
+
+W3.org. (2019). How to Meet WCAG (Quickref Reference). [ONLINE] 
+Available at: https://www.w3.org/WAI/WCAG21/quickref/ 
+[Accessed 9 May 2019].
+
+W3schools.com. (2019). CSS Web Safe Fonts. [ONLINE] 
+Available at: https://www.w3schools.com/cssref/css_websafe_fonts.asp
+[Accessed 18 April. 2019].
+
+W3schools.com. (2019). How To Create a Parallax Scrolling Effect. [ONLINE] 
+Available at: https://www.w3schools.com/howto/howto_css_parallax.asp 
+[Accessed 9 May 2019].
+
+<hr>
+*   [Github pages project home](https://hluce1.github.io/Front-end-Website-Project/)
