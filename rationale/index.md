@@ -92,9 +92,9 @@ layout: default
 
 <h2> Annotated Resource List </h2>
 
-<p><b>Coyier, C. (2014). Responsive Meta Tag | CSS-Tricks. [ONLINE] CSS-Tricks. Available at: https://css-tricks.com/snippets/html/responsive-meta-tag/ [Accessed 9 May 2019].</b></p>
+<p align="justify"><b>Coyier, C. (2014). Responsive Meta Tag | CSS-Tricks. [ONLINE] CSS-Tricks. Available at: https://css-tricks.com/snippets/html/responsive-meta-tag/ [Accessed 9 May 2019].</b></p>
 
-<palign="justify">Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale down to fit users different devices sizes.</p>
+<p align="justify">Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale down to fit users different devices sizes.</p>
 
 <p align="justify"><b>Idris, M. (2017). Flexbox: Building a navigation bar (Part 2/2). [ONLINE] codeburst. Available at: https://codeburst.io/flexbox-building-a-navigation-part-2-2-6cc58b9d4173 [Accessed 9 May 2019].</b></p>
 
@@ -107,6 +107,7 @@ layout: default
 <p align="justify"><b>Martsoukos, G. (2016). How to Build a Responsive Form With Flexbox. [ONLINE] Web Design Envato Tuts+. Available at: https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 [Accessed 9 May 2019].</b></p>
 
 <p align="justify">The author of this content gives insight into how a form can be made to be responsive without using media queries. This is achieved with the flexbox in code. Using HTML and CSS only, a responsive contact from has been created and leaves room for individuals to add their own aesthetic styles to it.</p>
+
 <hr>
  
 <h2>Bibliography</h2>
