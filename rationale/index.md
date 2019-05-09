@@ -153,3 +153,6 @@ Available at: https://www.w3schools.com/cssref/css_websafe_fonts.asp
 W3schools.com. (2019). How To Create a Parallax Scrolling Effect. [ONLINE] 
 Available at: https://www.w3schools.com/howto/howto_css_parallax.asp 
 [Accessed 9 May 2019].
+
+<hr>
+*   [Github pages project home](https://hluce1.github.io/Front-end-Website-Project/)
