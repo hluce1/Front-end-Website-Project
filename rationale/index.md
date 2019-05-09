@@ -94,7 +94,62 @@ layout: default
 
 <p><b>Coyier, C. (2014). Responsive Meta Tag | CSS-Tricks. [ONLINE] CSS-Tricks. Available at: https://css-tricks.com/snippets/html/responsive-meta-tag/ [Accessed 9 May 2019].</b></p>
 
-<p>Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale down to fit users different devices sizes.  </p>
+<palign="justify">Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale down to fit users different devices sizes.</p>
 
+<p align="justify"><b>Idris, M. (2017). Flexbox: Building a navigation bar (Part 2/2). [ONLINE] codeburst. Available at: https://codeburst.io/flexbox-building-a-navigation-part-2-2-6cc58b9d4173 [Accessed 9 May 2019].</b></p>
 
+<p align="justify">In this article, Maret Idris demonstrates using the CSS box model that flex containers can be used to create a responsive navigation bar. She outlines the unordered list and logo she is using will adjust properly to the width of the screen because of the classes she has added, these classes will also separate the content to stop them from overlapping.</p>
 
+<p align="justify"><b>James, O. (2017). Flexbox | HTML & CSS Is Hard. [ONLINE] Internetingishard.com. Available at: https://internetingishard.com/html-and-css/flexbox/ [Accessed 9 May 2019].</b></p>
+
+<p align="justify">The flexbox and its necessary functions are defined in depth within this development tutorial. James Oliver shows the how underlying code for creating flexboxes and containers can be designed to behave how users develop them to. This in turn, allows for creating responsive content in a versatile way for a clear and modern layout design in websites.</p>
+
+<p align="justify"><b>Martsoukos, G. (2016). How to Build a Responsive Form With Flexbox. [ONLINE] Web Design Envato Tuts+. Available at: https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 [Accessed 9 May 2019].</b></p>
+
+<p align="justify">The author of this content gives insight into how a form can be made to be responsive without using media queries. This is achieved with the flexbox in code. Using HTML and CSS only, a responsive contact from has been created and leaves room for individuals to add their own aesthetic styles to it.</p>
+<hr>
+ 
+<h2>Bibliography</h2>
+
+A11y-guidelines.orange.com. (2019). Accessible hiding. [ONLINE] 
+Available at: https://a11y-guidelines.orange.com/web_EN/exemples/masquage/index.html  
+[Accessed 9 May 2019].
+
+Colorlib. (2019). Mosaic - Free Architecture Portfolio Website Template 2019 - Colorlib. [ONLINE] Available at: https://colorlib.com/wp/template/mosaic/ 
+[Accessed 9 May 2019].
+
+Dodson, R. (2019). How To Do an Accessibility Review | Web Fundamentals | Google Developers. [ONLINE] Google Developers. 
+Available at: https://developers.google.com/web/fundamentals/accessibility/how-to-review#try_it_with_a_screen_reader 
+[Accessed 9 May 2019].
+
+Incognitothemes.com. (2017). Alpha. - Multipurpose HTML5 Template. [ONLINE] 
+Available at: http://www.incognitothemes.com/alpha/restaurant.html 
+[Accessed 9 May 2019].
+
+Jones, A. (2013). Web Accessibility: Skip Navigation Links. [ONLINE] Big Nerd Ranch. 
+Available at: https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ 
+[Accessed 9 May 2019].
+
+Leiserson, A. (2017). Decorative Images. [ONLINE] W3.org. 
+Available at: https://www.w3.org/WAI/tutorials/images/decorative/ 
+[Accessed 9 May 2019].
+
+Media Genesis. (2018). Popular screen resolutions: designing websites for all » Media Genesis. [ONLINE] 
+Available at: https://mediag.com/blog/popular-screen-resolutions-designing-for-all/ 
+[Accessed 9 May 2019].
+
+Tooplate. (2019). Free HTML CSS Templates. [ONLINE] 
+Available at: https://www.tooplate.com/ 
+[Accessed 18th April. 2019].
+
+W3.org. (2019). How to Meet WCAG (Quickref Reference). [ONLINE] 
+Available at: https://www.w3.org/WAI/WCAG21/quickref/ 
+[Accessed 9 May 2019].
+
+W3schools.com. (2019). CSS Web Safe Fonts. [ONLINE] 
+Available at: https://www.w3schools.com/cssref/css_websafe_fonts.asp
+[Accessed 18 April. 2019].
+
+W3schools.com. (2019). How To Create a Parallax Scrolling Effect. [ONLINE] 
+Available at: https://www.w3schools.com/howto/howto_css_parallax.asp 
+[Accessed 9 May 2019].
