@@ -92,21 +92,21 @@ layout: default
 
 <h2> Annotated Resource List </h2>
 
-<p>1)<b>Coyier, C. (2014). Responsive Meta Tag | CSS-Tricks. [ONLINE] CSS-Tricks. Available at: https://css-tricks.com/snippets/html/responsive-meta-tag/ [Accessed 9 May 2019].</b></p>
+<p>1) <b>Coyier, C. (2014). Responsive Meta Tag | CSS-Tricks. [ONLINE] CSS-Tricks. Available at: https://css-tricks.com/snippets/html/responsive-meta-tag/ [Accessed 9 May 2019].</b></p>
 
--<p align="justify">Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale down to fit users different devices sizes.</p>
+<p align="justify">Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale down to fit users different devices sizes.</p>
 
-<p>2)<b>Idris, M. (2017). Flexbox: Building a navigation bar (Part 2/2). [ONLINE] codeburst. Available at: https://codeburst.io/flexbox-building-a-navigation-part-2-2-6cc58b9d4173 [Accessed 9 May 2019].</b></p>
+<p>2) <b>Idris, M. (2017). Flexbox: Building a navigation bar (Part 2/2). [ONLINE] codeburst. Available at: https://codeburst.io/flexbox-building-a-navigation-part-2-2-6cc58b9d4173 [Accessed 9 May 2019].</b></p>
 
--<p align="justify">In this article, Maret Idris demonstrates using the CSS box model that flex containers can be used to create a responsive navigation bar. She outlines the unordered list and logo she is using will adjust properly to the width of the screen because of the classes she has added, these classes will also separate the content to stop them from overlapping.</p>
+<p align="justify">In this article, Maret Idris demonstrates using the CSS box model that flex containers can be used to create a responsive navigation bar. She outlines the unordered list and logo she is using will adjust properly to the width of the screen because of the classes she has added, these classes will also separate the content to stop them from overlapping.</p>
 
-<p>3)<b>James, O. (2017). Flexbox | HTML & CSS Is Hard. [ONLINE] Internetingishard.com. Available at: https://internetingishard.com/html-and-css/flexbox/ [Accessed 9 May 2019].</b></p>
+<p>3) <b>James, O. (2017). Flexbox | HTML & CSS Is Hard. [ONLINE] Internetingishard.com. Available at: https://internetingishard.com/html-and-css/flexbox/ [Accessed 9 May 2019].</b></p>
 
--<p align="justify">The flexbox and its necessary functions are defined in depth within this development tutorial. James Oliver shows the how underlying code for creating flexboxes and containers can be designed to behave how users develop them to. This in turn, allows for creating responsive content in a versatile way for a clear and modern layout design in websites.</p>
+<p align="justify">The flexbox and its necessary functions are defined in depth within this development tutorial. James Oliver shows the how underlying code for creating flexboxes and containers can be designed to behave how users develop them to. This in turn, allows for creating responsive content in a versatile way for a clear and modern layout design in websites.</p>
 
-<p align="justify">4)<b>Martsoukos, G. (2016). How to Build a Responsive Form With Flexbox. [ONLINE] Web Design Envato Tuts+. Available at: https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 [Accessed 9 May 2019].</b></p>
+<p align="justify">4) <b>Martsoukos, G. (2016). How to Build a Responsive Form With Flexbox. [ONLINE] Web Design Envato Tuts+. Available at: https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767 [Accessed 9 May 2019].</b></p>
 
--<p align="justify">The author of this content gives insight into how a form can be made to be responsive without using media queries. This is achieved with the flexbox in code. Using HTML and CSS only, a responsive contact from has been created and leaves room for individuals to add their own aesthetic styles to it.</p>
+<p align="justify">The author of this content gives insight into how a form can be made to be responsive without using media queries. This is achieved with the flexbox in code. Using HTML and CSS only, a responsive contact from has been created and leaves room for individuals to add their own aesthetic styles to it.</p>
 
 <hr>
  
