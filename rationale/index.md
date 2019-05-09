@@ -29,11 +29,11 @@ layout: default
 
 <p>The site took inspiration from the above website designs and lead to the following design decisions: </p>
   
-* Making the main responsive content the Tocumwal stories section and the contact form. Using flex boxes and containers to create these sections. 
+* Making the main responsive content the Tocumwal stories section and the contact form. Using flexboxes and containers to create these sections. 
   
 * Inspiration from Colorlibs (image 3) navigation bar. However opting not to use the hamburger menu. 
 
-*	Utilising flex boxes for when the content would need to be at smaller resolutions. Some trouble with this did occur when more than two flex boxes were added to the one container, so I just created two containers instead. 
+*	Utilising flexboxes for when the content would need to be at smaller resolutions. Some trouble with this did occur when more than two flexboxes were added to the one container, so I just created two containers instead. 
 
 *	Using CSS and HTML only parallax images.
 
