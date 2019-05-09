@@ -92,3 +92,9 @@ layout: default
 
 <h2> Annotated Resource List </h2>
 
+<p><b>Coyier, C. (2014). Responsive Meta Tag | CSS-Tricks. [ONLINE] CSS-Tricks. Available at: https://css-tricks.com/snippets/html/responsive-meta-tag/ [Accessed 9 May 2019].</b></p>
+
+<p>Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale down to fit users different devices sizes.  </p>
+
+
+
