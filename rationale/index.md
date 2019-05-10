@@ -64,7 +64,7 @@ layout: default
   - Content at different resolutions for mobiles and screens above 2K could become hard to read. So the font sizes needed to be changed for mobiles and all content for 2K and above resolutions have a CSS zoom property applied to help scale the content. 
   
 * Both:
-  - Using the correct from elements and attributes for screen readers, there needs to be a logical flow to the order of the content read to users. A lot of time was spent making the form read logically for all user types and represented in a visual way that was accessible. The main fixes where label names and making red asterisks.   
+  - Using the correct form elements / attributes for screen-reader software, there needs to be a logical flow to the order of content read to users. A lot of time was spent making the form read logically for all user types and represented in a visual way that was accessible. The main fixes where label names and making red asterisks.   
 
 # Accessibility Audit
 
