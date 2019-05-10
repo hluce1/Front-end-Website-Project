@@ -96,7 +96,7 @@ layout: default
 
 <p>1) <b>Coyier, C. (2014). Responsive Meta Tag | CSS-Tricks. [ONLINE] CSS-Tricks. Available at: https://css-tricks.com/snippets/html/responsive-meta-tag/ [Accessed 9 May 2019].</b></p>
 
-<p align="justify">Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale down to fit users different devices sizes.</p>
+<p align="justify">Chris Coyier demonstrates the necessary HTML and CSS code needed for users to insert into their files in order to render the viewport with the different variations in browser widths. Using this Meta tag allows for websites to scale to users different device sizes.</p>
 
 <p>2) <b>Idris, M. (2017). Flexbox: Building a navigation bar (Part 2/2). [ONLINE] codeburst. Available at: https://codeburst.io/flexbox-building-a-navigation-part-2-2-6cc58b9d4173 [Accessed 9 May 2019].</b></p>
 
